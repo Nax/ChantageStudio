@@ -1,0 +1,6 @@
+CTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>data/items.json</file>
+</qresource>
+</RCC>
+

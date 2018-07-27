@@ -1,0 +1,1268 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "name": "<Nothing> "
+    },
+    {
+      "id": 1,
+      "name": "Dagger"
+    },
+    {
+      "id": 2,
+      "name": "Mythril Knife"
+    },
+    {
+      "id": 3,
+      "name": "Blind Knife"
+    },
+    {
+      "id": 4,
+      "name": "Mage Masher"
+    },
+    {
+      "id": 5,
+      "name": "Platinum Dagger"
+    },
+    {
+      "id": 6,
+      "name": "Main Gauche"
+    },
+    {
+      "id": 7,
+      "name": "Orichalcum Dirk"
+    },
+    {
+      "id": 8,
+      "name": "Assassin's Dagger"
+    },
+    {
+      "id": 9,
+      "name": "Air Knife"
+    },
+    {
+      "id": 0,
+      "name": "Zwill Straightblade"
+    },
+    {
+      "id": 1,
+      "name": "Ninja Blade"
+    },
+    {
+      "id": 2,
+      "name": "Kunai"
+    },
+    {
+      "id": 3,
+      "name": "Kodachi"
+    },
+    {
+      "id": 4,
+      "name": "Ninja Longblade"
+    },
+    {
+      "id": 5,
+      "name": "Spellbinder"
+    },
+    {
+      "id": 6,
+      "name": "Sasuke's Blade"
+    },
+    {
+      "id": 7,
+      "name": "Iga Blade"
+    },
+    {
+      "id": 8,
+      "name": "Koga Blade"
+    },
+    {
+      "id": 9,
+      "name": "Broadsword"
+    },
+    {
+      "id": 0,
+      "name": "Longsword"
+    },
+    {
+      "id": 1,
+      "name": "Iron Sword"
+    },
+    {
+      "id": 2,
+      "name": "Mythril Sword"
+    },
+    {
+      "id": 3,
+      "name": "Blood Sword"
+    },
+    {
+      "id": 4,
+      "name": "Coral Sword"
+    },
+    {
+      "id": 5,
+      "name": "Ancient Sword"
+    },
+    {
+      "id": 6,
+      "name": "Sleep Blade"
+    },
+    {
+      "id": 7,
+      "name": "Platinum Sword"
+    },
+    {
+      "id": 8,
+      "name": "Diamond Sword"
+    },
+    {
+      "id": 9,
+      "name": "Icebrand"
+    },
+    {
+      "id": 0,
+      "name": "Runeblade"
+    },
+    {
+      "id": 1,
+      "name": "Nagnarok"
+    },
+    {
+      "id": 2,
+      "name": "Materia Blade"
+    },
+    {
+      "id": 3,
+      "name": "Defender"
+    },
+    {
+      "id": 4,
+      "name": "Save the Queen"
+    },
+    {
+      "id": 5,
+      "name": "Excalibur"
+    },
+    {
+      "id": 6,
+      "name": "Ragnarok"
+    },
+    {
+      "id": 7,
+      "name": "Chaos Blade"
+    },
+    {
+      "id": 8,
+      "name": "Ashura"
+    },
+    {
+      "id": 9,
+      "name": "Kotetsu"
+    },
+    {
+      "id": 0,
+      "name": "Osafune"
+    },
+    {
+      "id": 1,
+      "name": "Murasame"
+    },
+    {
+      "id": 2,
+      "name": "Ama-no-Murakamo"
+    },
+    {
+      "id": 3,
+      "name": "Kiyomori"
+    },
+    {
+      "id": 4,
+      "name": "Muramasa"
+    },
+    {
+      "id": 5,
+      "name": "Kiku-ichimonji"
+    },
+    {
+      "id": 6,
+      "name": "Masamune"
+    },
+    {
+      "id": 7,
+      "name": "Chirijiraden"
+    },
+    {
+      "id": 8,
+      "name": "Battle Axe"
+    },
+    {
+      "id": 9,
+      "name": "Giant's Axe"
+    },
+    {
+      "id": 0,
+      "name": "Slasher"
+    },
+    {
+      "id": 1,
+      "name": "Rod"
+    },
+    {
+      "id": 2,
+      "name": "Thunder Rod"
+    },
+    {
+      "id": 3,
+      "name": "Flame Rod"
+    },
+    {
+      "id": 4,
+      "name": "Ice Rod"
+    },
+    {
+      "id": 5,
+      "name": "Poison Rod"
+    },
+    {
+      "id": 6,
+      "name": "Wizard's Rod"
+    },
+    {
+      "id": 7,
+      "name": "Dragon Rod"
+    },
+    {
+      "id": 8,
+      "name": "Rod of Faith"
+    },
+    {
+      "id": 9,
+      "name": "Oak Staff"
+    },
+    {
+      "id": 0,
+      "name": "White Staff"
+    },
+    {
+      "id": 1,
+      "name": "Healing Staff"
+    },
+    {
+      "id": 2,
+      "name": "Serpent Staff"
+    },
+    {
+      "id": 3,
+      "name": "Mage's Staff"
+    },
+    {
+      "id": 4,
+      "name": "Golden Staff"
+    },
+    {
+      "id": 5,
+      "name": "Zeus Mace"
+    },
+    {
+      "id": 6,
+      "name": "Staff of the Magi"
+    },
+    {
+      "id": 7,
+      "name": "Iron Flail"
+    },
+    {
+      "id": 8,
+      "name": "Flame Mace"
+    },
+    {
+      "id": 9,
+      "name": "Morning Star"
+    },
+    {
+      "id": 0,
+      "name": "Scorpion Tail"
+    },
+    {
+      "id": 1,
+      "name": "Romandan Pistol"
+    },
+    {
+      "id": 2,
+      "name": "Mythril Gun"
+    },
+    {
+      "id": 3,
+      "name": "Stoneshooter"
+    },
+    {
+      "id": 4,
+      "name": "Glacial Gun"
+    },
+    {
+      "id": 5,
+      "name": "Blaze Gun"
+    },
+    {
+      "id": 6,
+      "name": "Blaster"
+    },
+    {
+      "id": 7,
+      "name": "Bowgun"
+    },
+    {
+      "id": 8,
+      "name": "Knightslayer"
+    },
+    {
+      "id": 9,
+      "name": "Crossbow"
+    },
+    {
+      "id": 0,
+      "name": "Poison Bow"
+    },
+    {
+      "id": 1,
+      "name": "Hunting Bow"
+    },
+    {
+      "id": 2,
+      "name": "Gastrophetes"
+    },
+    {
+      "id": 3,
+      "name": "Longbow"
+    },
+    {
+      "id": 4,
+      "name": "Silver Bow"
+    },
+    {
+      "id": 5,
+      "name": "Ice Bow"
+    },
+    {
+      "id": 6,
+      "name": "Lightning Bow"
+    },
+    {
+      "id": 7,
+      "name": "Windslash Bow"
+    },
+    {
+      "id": 8,
+      "name": "Mythril Bow"
+    },
+    {
+      "id": 9,
+      "name": "Artemis Bow"
+    },
+    {
+      "id": 0,
+      "name": "Yoichi Bow"
+    },
+    {
+      "id": 1,
+      "name": "Perseus Bow"
+    },
+    {
+      "id": 2,
+      "name": "Lamia's Harp"
+    },
+    {
+      "id": 3,
+      "name": "Bloodstring Harp"
+    },
+    {
+      "id": 4,
+      "name": "Faerie Harp"
+    },
+    {
+      "id": 5,
+      "name": "Battle Folio"
+    },
+    {
+      "id": 6,
+      "name": "Bestiary"
+    },
+    {
+      "id": 7,
+      "name": "Papyrus Codex"
+    },
+    {
+      "id": 8,
+      "name": "Omnilex"
+    },
+    {
+      "id": 9,
+      "name": "Javelin"
+    },
+    {
+      "id": 0,
+      "name": "Spear"
+    },
+    {
+      "id": 1,
+      "name": "Mythril Spear"
+    },
+    {
+      "id": 2,
+      "name": "Partisan"
+    },
+    {
+      "id": 3,
+      "name": "Obelisk"
+    },
+    {
+      "id": 4,
+      "name": "Holy Lance"
+    },
+    {
+      "id": 5,
+      "name": "Dragon Whisker"
+    },
+    {
+      "id": 6,
+      "name": "Javelin (Strong)"
+    },
+    {
+      "id": 7,
+      "name": "Cypress Pole"
+    },
+    {
+      "id": 8,
+      "name": "Battle Bamboo"
+    },
+    {
+      "id": 9,
+      "name": "Musk Pole"
+    },
+    {
+      "id": 0,
+      "name": "Iron Fan"
+    },
+    {
+      "id": 1,
+      "name": "Gokuu Pole"
+    },
+    {
+      "id": 2,
+      "name": "Ivory Pole"
+    },
+    {
+      "id": 3,
+      "name": "Eight-fluted Pole"
+    },
+    {
+      "id": 4,
+      "name": "Whale Whisker"
+    },
+    {
+      "id": 5,
+      "name": "Croakadile Bag"
+    },
+    {
+      "id": 6,
+      "name": "Fallingstar Bag"
+    },
+    {
+      "id": 7,
+      "name": "Pantherskin Bag"
+    },
+    {
+      "id": 8,
+      "name": "Hydrascale Bag"
+    },
+    {
+      "id": 9,
+      "name": "Damask Cloth"
+    },
+    {
+      "id": 0,
+      "name": "Cashmere"
+    },
+    {
+      "id": 1,
+      "name": "Wyrmweave Silk"
+    },
+    {
+      "id": 2,
+      "name": "Shuriken"
+    },
+    {
+      "id": 3,
+      "name": "Fuma Shuriken"
+    },
+    {
+      "id": 4,
+      "name": "Yagyu Darkrood"
+    },
+    {
+      "id": 5,
+      "name": "Flameburst Bomb"
+    },
+    {
+      "id": 6,
+      "name": "Snowmelt Bomb"
+    },
+    {
+      "id": 7,
+      "name": "Spark Bomb"
+    },
+    {
+      "id": 8,
+      "name": "Escutcheon (weak)"
+    },
+    {
+      "id": 9,
+      "name": "Buckler"
+    },
+    {
+      "id": 0,
+      "name": "Bronze Shield"
+    },
+    {
+      "id": 1,
+      "name": "Round Shield"
+    },
+    {
+      "id": 2,
+      "name": "Mythril Shield"
+    },
+    {
+      "id": 3,
+      "name": "Golden Shield"
+    },
+    {
+      "id": 4,
+      "name": "Ice Shield"
+    },
+    {
+      "id": 5,
+      "name": "Flame Shield"
+    },
+    {
+      "id": 6,
+      "name": "Aegis Shield"
+    },
+    {
+      "id": 7,
+      "name": "Diamond Shield"
+    },
+    {
+      "id": 8,
+      "name": "Platinum Shield"
+    },
+    {
+      "id": 9,
+      "name": "Crystal Shield"
+    },
+    {
+      "id": 0,
+      "name": "Genji Shield"
+    },
+    {
+      "id": 1,
+      "name": "Kaiser Shield"
+    },
+    {
+      "id": 2,
+      "name": "Venetian Shield"
+    },
+    {
+      "id": 3,
+      "name": "Escutcheon (strong)"
+    },
+    {
+      "id": 4,
+      "name": "Leather Helm"
+    },
+    {
+      "id": 5,
+      "name": "Bronze Helm"
+    },
+    {
+      "id": 6,
+      "name": "Iron Helm"
+    },
+    {
+      "id": 7,
+      "name": "Barbut"
+    },
+    {
+      "id": 8,
+      "name": "Mythril Helm"
+    },
+    {
+      "id": 9,
+      "name": "Golden Helm"
+    },
+    {
+      "id": 0,
+      "name": "Close Helmet"
+    },
+    {
+      "id": 1,
+      "name": "Diamond Helm"
+    },
+    {
+      "id": 2,
+      "name": "Platinum Helm"
+    },
+    {
+      "id": 3,
+      "name": "Circlet"
+    },
+    {
+      "id": 4,
+      "name": "Crystal Helm"
+    },
+    {
+      "id": 5,
+      "name": "Genji Helm"
+    },
+    {
+      "id": 6,
+      "name": "Grand Helm"
+    },
+    {
+      "id": 7,
+      "name": "Leather Cap"
+    },
+    {
+      "id": 8,
+      "name": "Plumed Hat"
+    },
+    {
+      "id": 9,
+      "name": "Red Hood"
+    },
+    {
+      "id": 0,
+      "name": "Headgear"
+    },
+    {
+      "id": 1,
+      "name": "Wizard's Hat"
+    },
+    {
+      "id": 2,
+      "name": "Green Beret"
+    },
+    {
+      "id": 3,
+      "name": "Headband"
+    },
+    {
+      "id": 4,
+      "name": "Celebrant's Miter"
+    },
+    {
+      "id": 5,
+      "name": "Black Cowl"
+    },
+    {
+      "id": 6,
+      "name": "Gold Hairpin"
+    },
+    {
+      "id": 7,
+      "name": "Lambent Hat"
+    },
+    {
+      "id": 8,
+      "name": "Thief's Cap"
+    },
+    {
+      "id": 9,
+      "name": "Cachusha"
+    },
+    {
+      "id": 0,
+      "name": "Barette"
+    },
+    {
+      "id": 1,
+      "name": "Ribbon"
+    },
+    {
+      "id": 2,
+      "name": "Leather Armor"
+    },
+    {
+      "id": 3,
+      "name": "Linen Cuirass"
+    },
+    {
+      "id": 4,
+      "name": "Bronze Armor"
+    },
+    {
+      "id": 5,
+      "name": "Chainmail"
+    },
+    {
+      "id": 6,
+      "name": "Mythril Armor"
+    },
+    {
+      "id": 7,
+      "name": "Plate Mail"
+    },
+    {
+      "id": 8,
+      "name": "Golden Armor"
+    },
+    {
+      "id": 9,
+      "name": "Diamond Armor"
+    },
+    {
+      "id": 0,
+      "name": "Platinum Armor"
+    },
+    {
+      "id": 1,
+      "name": "Carabiner Mail"
+    },
+    {
+      "id": 2,
+      "name": "Crystal Mail"
+    },
+    {
+      "id": 3,
+      "name": "Genji Armor"
+    },
+    {
+      "id": 4,
+      "name": "Mirror Mail"
+    },
+    {
+      "id": 5,
+      "name": "Maximillian"
+    },
+    {
+      "id": 6,
+      "name": "Clothing"
+    },
+    {
+      "id": 7,
+      "name": "Leather Clothing"
+    },
+    {
+      "id": 8,
+      "name": "Leather Plate"
+    },
+    {
+      "id": 9,
+      "name": "Ringmail"
+    },
+    {
+      "id": 0,
+      "name": "Mythril Vest"
+    },
+    {
+      "id": 1,
+      "name": "Adamant Vest"
+    },
+    {
+      "id": 2,
+      "name": "Wizard Clothing"
+    },
+    {
+      "id": 3,
+      "name": "Brigandine"
+    },
+    {
+      "id": 4,
+      "name": "Jujitsu Gi"
+    },
+    {
+      "id": 5,
+      "name": "Power Garb"
+    },
+    {
+      "id": 6,
+      "name": "Gaia Gear"
+    },
+    {
+      "id": 7,
+      "name": "Ninja Gear"
+    },
+    {
+      "id": 8,
+      "name": "Black Garb"
+    },
+    {
+      "id": 9,
+      "name": "Rubber Suit"
+    },
+    {
+      "id": 0,
+      "name": "Hempen Robe"
+    },
+    {
+      "id": 1,
+      "name": "Silken Robe"
+    },
+    {
+      "id": 2,
+      "name": "Wizard's Robe"
+    },
+    {
+      "id": 3,
+      "name": "Chameleon Robe"
+    },
+    {
+      "id": 4,
+      "name": "White Robe"
+    },
+    {
+      "id": 5,
+      "name": "Black Robe"
+    },
+    {
+      "id": 6,
+      "name": "Luminous Robe"
+    },
+    {
+      "id": 7,
+      "name": "Lordly Robe"
+    },
+    {
+      "id": 8,
+      "name": "Battle Boots"
+    },
+    {
+      "id": 9,
+      "name": "Spiked Boots"
+    },
+    {
+      "id": 0,
+      "name": "Germinas Boots"
+    },
+    {
+      "id": 1,
+      "name": "Rubber Boots"
+    },
+    {
+      "id": 2,
+      "name": "Winged Boots"
+    },
+    {
+      "id": 3,
+      "name": "Hermes Shoes"
+    },
+    {
+      "id": 4,
+      "name": "Red Shoes"
+    },
+    {
+      "id": 5,
+      "name": "Power Gauntlet"
+    },
+    {
+      "id": 6,
+      "name": "Genji Glove"
+    },
+    {
+      "id": 7,
+      "name": "Magepower Glove"
+    },
+    {
+      "id": 8,
+      "name": "Bracer"
+    },
+    {
+      "id": 9,
+      "name": "Reflect Ring"
+    },
+    {
+      "id": 0,
+      "name": "Protect Ring"
+    },
+    {
+      "id": 1,
+      "name": "Magick Ring"
+    },
+    {
+      "id": 2,
+      "name": "Cursed Ring"
+    },
+    {
+      "id": 3,
+      "name": "Angel Ring"
+    },
+    {
+      "id": 4,
+      "name": "Diamond Bracelet"
+    },
+    {
+      "id": 5,
+      "name": "Jade Armlet"
+    },
+    {
+      "id": 6,
+      "name": "Japa Mala"
+    },
+    {
+      "id": 7,
+      "name": "Nu Khai Armband"
+    },
+    {
+      "id": 8,
+      "name": "Guardian Bracelet"
+    },
+    {
+      "id": 9,
+      "name": "Shoulder Cape"
+    },
+    {
+      "id": 0,
+      "name": "Leather Cloak"
+    },
+    {
+      "id": 1,
+      "name": "Mage's Cloak"
+    },
+    {
+      "id": 2,
+      "name": "Elven Cloak"
+    },
+    {
+      "id": 3,
+      "name": "Vampire Cape"
+    },
+    {
+      "id": 4,
+      "name": "Featherweave Cape"
+    },
+    {
+      "id": 5,
+      "name": "Invisibility Cloak"
+    },
+    {
+      "id": 6,
+      "name": "Chantage"
+    },
+    {
+      "id": 7,
+      "name": "Cherche"
+    },
+    {
+      "id": 8,
+      "name": "Septième"
+    },
+    {
+      "id": 9,
+      "name": "Sortilége"
+    },
+    {
+      "id": 0,
+      "name": "Potion"
+    },
+    {
+      "id": 1,
+      "name": "Hi-Potion"
+    },
+    {
+      "id": 2,
+      "name": "X-Potion"
+    },
+    {
+      "id": 3,
+      "name": "Ether"
+    },
+    {
+      "id": 4,
+      "name": "Hi-Ether"
+    },
+    {
+      "id": 5,
+      "name": "Elixir"
+    },
+    {
+      "id": 6,
+      "name": "Antidote"
+    },
+    {
+      "id": 7,
+      "name": "Eye Drops"
+    },
+    {
+      "id": 8,
+      "name": "Echo Herbs"
+    },
+    {
+      "id": 9,
+      "name": "Maiden's Kiss"
+    },
+    {
+      "id": 0,
+      "name": "Gold Needle"
+    },
+    {
+      "id": 1,
+      "name": "Holy Water"
+    },
+    {
+      "id": 2,
+      "name": "Remedy"
+    },
+    {
+      "id": 3,
+      "name": "Phoenix Down"
+    },
+    {
+      "id": 4,
+      "name": "<Nothing>  "
+    },
+    {
+      "id": 5,
+      "name": "<Nothing>   "
+    },
+    {
+      "id": 6,
+      "name": "Chaosbringer"
+    },
+    {
+      "id": 7,
+      "name": "Deathbringer"
+    },
+    {
+      "id": 8,
+      "name": "Arondight"
+    },
+    {
+      "id": 9,
+      "name": "Balmung"
+    },
+    {
+      "id": 0,
+      "name": "Valhalla"
+    },
+    {
+      "id": 1,
+      "name": "Moonblade"
+    },
+    {
+      "id": 2,
+      "name": "Onion Sword"
+    },
+    {
+      "id": 3,
+      "name": "Ras Algethi"
+    },
+    {
+      "id": 4,
+      "name": "Fomalhaut"
+    },
+    {
+      "id": 5,
+      "name": "Francisca"
+    },
+    {
+      "id": 6,
+      "name": "Golden Axe"
+    },
+    {
+      "id": 7,
+      "name": "Orochi"
+    },
+    {
+      "id": 8,
+      "name": "Moonsilk Blade"
+    },
+    {
+      "id": 9,
+      "name": "Nirvana"
+    },
+    {
+      "id": 0,
+      "name": "Dreamwaker"
+    },
+    {
+      "id": 1,
+      "name": "Stardust Rod"
+    },
+    {
+      "id": 2,
+      "name": "Crown Scepter"
+    },
+    {
+      "id": 3,
+      "name": "Vesper"
+    },
+    {
+      "id": 4,
+      "name": "Sagittarius Bow"
+    },
+    {
+      "id": 5,
+      "name": "Durandal"
+    },
+    {
+      "id": 6,
+      "name": "Gae Bolg"
+    },
+    {
+      "id": 7,
+      "name": "Gungnir"
+    },
+    {
+      "id": 8,
+      "name": "Item 278"
+    },
+    {
+      "id": 9,
+      "name": "Item 279"
+    },
+    {
+      "id": 0,
+      "name": "Item 280"
+    },
+    {
+      "id": 1,
+      "name": "Item 281"
+    },
+    {
+      "id": 2,
+      "name": "Item 282"
+    },
+    {
+      "id": 3,
+      "name": "Item 283"
+    },
+    {
+      "id": 4,
+      "name": "Item 284"
+    },
+    {
+      "id": 5,
+      "name": "Item 285"
+    },
+    {
+      "id": 6,
+      "name": "Item 286"
+    },
+    {
+      "id": 7,
+      "name": "Item 287"
+    },
+    {
+      "id": 8,
+      "name": "Onion Shield"
+    },
+    {
+      "id": 9,
+      "name": "Reverie Shield"
+    },
+    {
+      "id": 0,
+      "name": "Item 290"
+    },
+    {
+      "id": 1,
+      "name": "Item 291"
+    },
+    {
+      "id": 2,
+      "name": "Vanguard Helm"
+    },
+    {
+      "id": 3,
+      "name": "Onion Helm"
+    },
+    {
+      "id": 4,
+      "name": "Acacia Hat"
+    },
+    {
+      "id": 5,
+      "name": "Brass Coronet"
+    },
+    {
+      "id": 6,
+      "name": "Item 296"
+    },
+    {
+      "id": 7,
+      "name": "Item 297"
+    },
+    {
+      "id": 8,
+      "name": "Item 298"
+    },
+    {
+      "id": 9,
+      "name": "Item 299"
+    },
+    {
+      "id": 0,
+      "name": "Grand Armor"
+    },
+    {
+      "id": 1,
+      "name": "Onion Armor"
+    },
+    {
+      "id": 2,
+      "name": "Minerva Bustier"
+    },
+    {
+      "id": 3,
+      "name": "Mirage Vest"
+    },
+    {
+      "id": 4,
+      "name": "Brave Suit"
+    },
+    {
+      "id": 5,
+      "name": "Sage's Robe"
+    },
+    {
+      "id": 6,
+      "name": "Item 306"
+    },
+    {
+      "id": 7,
+      "name": "Item 307"
+    },
+    {
+      "id": 8,
+      "name": "Gaius Caligae"
+    },
+    {
+      "id": 9,
+      "name": "Brigand's Gloves"
+    },
+    {
+      "id": 0,
+      "name": "Onion Gloves"
+    },
+    {
+      "id": 1,
+      "name": "Empyreal Armband"
+    },
+    {
+      "id": 2,
+      "name": "Tynar Rouge"
+    },
+    {
+      "id": 3,
+      "name": "Sage's Ring"
+    },
+    {
+      "id": 4,
+      "name": "Item 314"
+    },
+    {
+      "id": 5,
+      "name": "Item 315"
+    }
+  ]
+}
