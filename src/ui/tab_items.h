@@ -1,18 +1,15 @@
 #ifndef INCLUDED_UI_TAB_ITEMS_H
 #define INCLUDED_UI_TAB_ITEMS_H
 
-#include <QWidget>
-#include <QListView>
+#include <ui/tab_base.h>
 
-class TabItems : public QWidget
+struct Mod;
+class TabItems : public TabBase
 {
     Q_OBJECT
 
 public:
-    explicit TabItems(QWidget* parent = nullptr);
-
-private:
-    QListView*      _listView;
+    explicit TabItems(Mod& mod, QWidget* parent = nullptr);
 };
 
 #endif

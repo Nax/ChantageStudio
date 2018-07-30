@@ -14,6 +14,5 @@ TabBase::TabBase(const QString& name, QWidget* parent)
     _listView->setFixedWidth(150);
     leftLayout->addWidget(_listView);
     layout->addLayout(leftLayout);
-    //layout->addWidget(new EditorItem);
     setLayout(layout);
 }

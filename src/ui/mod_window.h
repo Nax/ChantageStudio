@@ -3,12 +3,13 @@
 
 #include <QMainWindow>
 
+struct Mod;
 class ModWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit ModWindow(QWidget* parent = nullptr);
+    explicit ModWindow(Mod& mod, QWidget* parent = nullptr);
 };
 
 #endif
