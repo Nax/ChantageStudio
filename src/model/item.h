@@ -19,6 +19,7 @@ struct Item
 
     uint16_t    id;
     QString     name;
+    bool        internal;
 
     uint8_t     palette;
     uint8_t     gfx;

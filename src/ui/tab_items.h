@@ -1,6 +1,7 @@
 #ifndef INCLUDED_UI_TAB_ITEMS_H
 #define INCLUDED_UI_TAB_ITEMS_H
 
+#include <QLineEdit>
 #include <ui/tab_base.h>
 
 struct Mod;
@@ -10,6 +11,12 @@ class TabItems : public TabBase
 
 public:
     explicit TabItems(Mod& mod, QWidget* parent = nullptr);
+
+private slots:
+    void refreshUi(int index);
+
+private:
+    QLineEdit * _itemNameEdit;
 };
 
 #endif

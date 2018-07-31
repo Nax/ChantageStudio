@@ -15,6 +15,11 @@ ItemList::ItemList()
     }
 }
 
+int ItemList::columnCount(const QModelIndex & parent) const
+{
+    return 2;
+}
+
 int ItemList::rowCount(const QModelIndex & parent) const
 {
     return _items.size();
@@ -22,10 +27,46 @@ int ItemList::rowCount(const QModelIndex & parent) const
 
 QVariant ItemList::data(const QModelIndex & index, int role) const
 {
-    if (role == Qt::DisplayRole && index.row() < _items.size() && index.column() == 0)
+    if ((role == Qt::DisplayRole || role == Qt::EditRole) && index.row() < _items.size())
     {
         const Item& item = _items[index.row()];
-        return QString("%1").arg(item.id, 4, 16, QChar('0')) + " - " + item.name;
+        switch (index.column())
+        {
+        case 0:
+            return QString("%1").arg(item.id, 4, 16, QChar('0')) + " - " + item.name;
+        case 1:
+            return item.name;
+        default:
+            return QVariant();
+        }
     }
     return QVariant();
+}
+
+bool ItemList::setData(const QModelIndex & index, const QVariant & value, int role)
+{
+    QVector<int> roles;
+    roles.push_back(role);
+    if (role != Qt::EditRole)
+        return false;
+    Item& item = _items[index.row()];
+    switch (index.column())
+    {
+        case 1:
+            item.name = value.toString();
+            emit dataChanged(index, index, roles);
+            return true;
+        default:
+            return false;
+    }
+}
+
+Qt::ItemFlags ItemList::flags(const QModelIndex & index) const
+{
+    Qt::ItemFlags flags = Qt::ItemIsSelectable | Qt::ItemIsEnabled;
+    const Item& item = _items[index.row()];
+
+    if (!item.internal)
+        flags |= Qt::ItemIsEditable;
+    return flags;
 }

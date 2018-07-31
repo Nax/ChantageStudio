@@ -1,7 +1,8 @@
 [
     {
       "id": 0,
-      "name": "<Nothing> "
+      "name": "(None)",
+      "internal":  true
     },
     {
       "id": 1,
@@ -1015,14 +1016,16 @@
       "id": 253,
       "name": "Phoenix Down"
     },
-    {
-      "id": 254,
-      "name": "<Nothing>  "
-    },
-    {
-      "id": 255,
-      "name": "<Nothing>   "
-    },
+  {
+    "id": 254,
+    "name": "(Random)",
+    "internal": true
+  },
+  {
+    "id": 255,
+    "name": "(Terminator)",
+    "internal": true
+  },
     {
       "id": 256,
       "name": "Chaosbringer"
@@ -1111,46 +1114,56 @@
       "id": 277,
       "name": "Gungnir"
     },
-    {
-      "id": 278,
-      "name": "\u30A2\u30A4\u30C6\u30E0278"
-    },
-    {
-      "id": 279,
-      "name": "\u30A2\u30A4\u30C6\u30E0279"
-    },
-    {
-      "id": 280,
-      "name": "\u30A2\u30A4\u30C6\u30E0280"
-    },
-    {
-      "id": 281,
-      "name": "\u30A2\u30A4\u30C6\u30E0281"
-    },
-    {
-      "id": 282,
-      "name": "\u30A2\u30A4\u30C6\u30E0282"
-    },
-    {
-      "id": 283,
-      "name": "\u30A2\u30A4\u30C6\u30E0283"
-    },
-    {
-      "id": 284,
-      "name": "\u30A2\u30A4\u30C6\u30E0284"
-    },
-    {
-      "id": 285,
-      "name": "\u30A2\u30A4\u30C6\u30E0285"
-    },
-    {
-      "id": 286,
-      "name": "\u30A2\u30A4\u30C6\u30E0286"
-    },
-    {
-      "id": 287,
-      "name": "\u30A2\u30A4\u30C6\u30E0287"
-    },
+  {
+    "id": 278,
+    "name": "アイテム278",
+    "internal": true
+  },
+  {
+    "id": 279,
+    "name": "アイテム279",
+    "internal": true
+  },
+  {
+    "id": 280,
+    "name": "アイテム280",
+    "internal": true
+  },
+  {
+    "id": 281,
+    "name": "アイテム281",
+    "internal": true
+  },
+  {
+    "id": 282,
+    "name": "アイテム282",
+    "internal": true
+  },
+  {
+    "id": 283,
+    "name": "アイテム283",
+    "internal": true
+  },
+  {
+    "id": 284,
+    "name": "アイテム284",
+    "internal": true
+  },
+  {
+    "id": 285,
+    "name": "アイテム285",
+    "internal": true
+  },
+  {
+    "id": 286,
+    "name": "アイテム286",
+    "internal": true
+  },
+  {
+    "id": 287,
+    "name": "アイテム287",
+    "internal": true
+  },
     {
       "id": 288,
       "name": "Onion Shield"
@@ -1159,14 +1172,16 @@
       "id": 289,
       "name": "Reverie Shield"
     },
-    {
-      "id": 290,
-      "name": "\u30A2\u30A4\u30C6\u30E0290"
-    },
-    {
-      "id": 291,
-      "name": "\u30A2\u30A4\u30C6\u30E0291"
-    },
+  {
+    "id": 290,
+    "name": "アイテム290",
+    "internal": true
+  },
+  {
+    "id": 291,
+    "name": "アイテム291",
+    "internal": true
+  },
     {
       "id": 292,
       "name": "Vanguard Helm"
@@ -1183,22 +1198,26 @@
       "id": 295,
       "name": "Brass Coronet"
     },
-    {
-      "id": 296,
-      "name": "\u30A2\u30A4\u30C6\u30E0296"
-    },
-    {
-      "id": 297,
-      "name": "\u30A2\u30A4\u30C6\u30E0297"
-    },
-    {
-      "id": 298,
-      "name": "\u30A2\u30A4\u30C6\u30E0298"
-    },
-    {
-      "id": 299,
-      "name": "\u30A2\u30A4\u30C6\u30E0299"
-    },
+  {
+    "id": 296,
+    "name": "アイテム296",
+    "internal": true
+  },
+  {
+    "id": 297,
+    "name": "アイテム297",
+    "internal": true
+  },
+  {
+    "id": 298,
+    "name": "アイテム298",
+    "internal": true
+  },
+  {
+    "id": 299,
+    "name": "アイテム299",
+    "internal": true
+  },
     {
       "id": 300,
       "name": "Grand Armor"
@@ -1223,14 +1242,16 @@
       "id": 305,
       "name": "Sage's Robe"
     },
-    {
-      "id": 306,
-      "name": "\u30A2\u30A4\u30C6\u30E0306"
-    },
-    {
-      "id": 307,
-      "name": "\u30A2\u30A4\u30C6\u30E0307"
-    },
+  {
+    "id": 306,
+    "name": "アイテム306",
+    "internal": true
+  },
+  {
+    "id": 307,
+    "name": "アイテム307",
+    "internal": true
+  },
     {
       "id": 308,
       "name": "Gaius Caligae"
@@ -1255,12 +1276,14 @@
       "id": 313,
       "name": "Sage's Ring"
     },
-    {
-      "id": 314,
-      "name": "\u30A2\u30A4\u30C6\u30E0314"
-    },
-    {
-      "id": 315,
-      "name": "\u30A2\u30A4\u30C6\u30E0315"
-    }
+  {
+    "id": 314,
+    "name": "アイテム314",
+    "internal": true
+  },
+  {
+    "id": 315,
+    "name": "アイテム315",
+    "internal": true
+  }
 ]
