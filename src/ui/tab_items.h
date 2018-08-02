@@ -2,6 +2,7 @@
 #define INCLUDED_UI_TAB_ITEMS_H
 
 #include <QLineEdit>
+#include <QSpinBox>
 #include <ui/tab_base.h>
 
 struct Mod;
@@ -16,7 +17,11 @@ private slots:
     void refreshUi(int index);
 
 private:
-    QLineEdit * _itemNameEdit;
+    QLineEdit*      _itemEditName;
+    QSpinBox*       _itemEditPalette;
+    QSpinBox*       _itemEditSprite;
+    QSpinBox*       _itemEditPrice;
+    Mod&            _mod;
 };
 
 #endif

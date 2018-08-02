@@ -17,7 +17,7 @@ ItemList::ItemList()
 
 int ItemList::columnCount(const QModelIndex & parent) const
 {
-    return 2;
+    return 5;
 }
 
 int ItemList::rowCount(const QModelIndex & parent) const
@@ -36,6 +36,12 @@ QVariant ItemList::data(const QModelIndex & index, int role) const
             return QString("%1").arg(item.id, 4, 16, QChar('0')) + " - " + item.name;
         case 1:
             return item.name;
+        case 2:
+            return item.palette;
+        case 3:
+            return item.sprite;
+        case 4:
+            return item.price;
         default:
             return QVariant();
         }
@@ -54,6 +60,18 @@ bool ItemList::setData(const QModelIndex & index, const QVariant & value, int ro
     {
         case 1:
             item.name = value.toString();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 2:
+            item.palette = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 3:
+            item.sprite = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 4:
+            item.price = value.toInt();
             emit dataChanged(index, index, roles);
             return true;
         default:

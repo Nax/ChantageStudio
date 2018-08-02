@@ -1,1289 +1,3962 @@
 [
-    {
-      "id": 0,
-      "name": "(None)",
-      "internal":  true
-    },
-    {
-      "id": 1,
-      "name": "Dagger"
-    },
-    {
-      "id": 2,
-      "name": "Mythril Knife"
-    },
-    {
-      "id": 3,
-      "name": "Blind Knife"
-    },
-    {
-      "id": 4,
-      "name": "Mage Masher"
-    },
-    {
-      "id": 5,
-      "name": "Platinum Dagger"
-    },
-    {
-      "id": 6,
-      "name": "Main Gauche"
-    },
-    {
-      "id": 7,
-      "name": "Orichalcum Dirk"
-    },
-    {
-      "id": 8,
-      "name": "Assassin's Dagger"
-    },
-    {
-      "id": 9,
-      "name": "Air Knife"
-    },
-    {
-      "id": 10,
-      "name": "Zwill Straightblade"
-    },
-    {
-      "id": 11,
-      "name": "Ninja Blade"
-    },
-    {
-      "id": 12,
-      "name": "Kunai"
-    },
-    {
-      "id": 13,
-      "name": "Kodachi"
-    },
-    {
-      "id": 14,
-      "name": "Ninja Longblade"
-    },
-    {
-      "id": 15,
-      "name": "Spellbinder"
-    },
-    {
-      "id": 16,
-      "name": "Sasuke's Blade"
-    },
-    {
-      "id": 17,
-      "name": "Iga Blade"
-    },
-    {
-      "id": 18,
-      "name": "Koga Blade"
-    },
-    {
-      "id": 19,
-      "name": "Broadsword"
-    },
-    {
-      "id": 20,
-      "name": "Longsword"
-    },
-    {
-      "id": 21,
-      "name": "Iron Sword"
-    },
-    {
-      "id": 22,
-      "name": "Mythril Sword"
-    },
-    {
-      "id": 23,
-      "name": "Blood Sword"
-    },
-    {
-      "id": 24,
-      "name": "Coral Sword"
-    },
-    {
-      "id": 25,
-      "name": "Ancient Sword"
-    },
-    {
-      "id": 26,
-      "name": "Sleep Blade"
-    },
-    {
-      "id": 27,
-      "name": "Platinum Sword"
-    },
-    {
-      "id": 28,
-      "name": "Diamond Sword"
-    },
-    {
-      "id": 29,
-      "name": "Icebrand"
-    },
-    {
-      "id": 30,
-      "name": "Runeblade"
-    },
-    {
-      "id": 31,
-      "name": "Nagnarok"
-    },
-    {
-      "id": 32,
-      "name": "Materia Blade"
-    },
-    {
-      "id": 33,
-      "name": "Defender"
-    },
-    {
-      "id": 34,
-      "name": "Save the Queen"
-    },
-    {
-      "id": 35,
-      "name": "Excalibur"
-    },
-    {
-      "id": 36,
-      "name": "Ragnarok"
-    },
-    {
-      "id": 37,
-      "name": "Chaos Blade"
-    },
-    {
-      "id": 38,
-      "name": "Ashura"
-    },
-    {
-      "id": 39,
-      "name": "Kotetsu"
-    },
-    {
-      "id": 40,
-      "name": "Osafune"
-    },
-    {
-      "id": 41,
-      "name": "Murasame"
-    },
-    {
-      "id": 42,
-      "name": "Ama-no-Murakamo"
-    },
-    {
-      "id": 43,
-      "name": "Kiyomori"
-    },
-    {
-      "id": 44,
-      "name": "Muramasa"
-    },
-    {
-      "id": 45,
-      "name": "Kiku-ichimonji"
-    },
-    {
-      "id": 46,
-      "name": "Masamune"
-    },
-    {
-      "id": 47,
-      "name": "Chirijiraden"
-    },
-    {
-      "id": 48,
-      "name": "Battle Axe"
-    },
-    {
-      "id": 49,
-      "name": "Giant's Axe"
-    },
-    {
-      "id": 50,
-      "name": "Slasher"
-    },
-    {
-      "id": 51,
-      "name": "Rod"
-    },
-    {
-      "id": 52,
-      "name": "Thunder Rod"
-    },
-    {
-      "id": 53,
-      "name": "Flame Rod"
-    },
-    {
-      "id": 54,
-      "name": "Ice Rod"
-    },
-    {
-      "id": 55,
-      "name": "Poison Rod"
-    },
-    {
-      "id": 56,
-      "name": "Wizard's Rod"
-    },
-    {
-      "id": 57,
-      "name": "Dragon Rod"
-    },
-    {
-      "id": 58,
-      "name": "Rod of Faith"
-    },
-    {
-      "id": 59,
-      "name": "Oak Staff"
-    },
-    {
-      "id": 60,
-      "name": "White Staff"
-    },
-    {
-      "id": 61,
-      "name": "Healing Staff"
-    },
-    {
-      "id": 62,
-      "name": "Serpent Staff"
-    },
-    {
-      "id": 63,
-      "name": "Mage's Staff"
-    },
-    {
-      "id": 64,
-      "name": "Golden Staff"
-    },
-    {
-      "id": 65,
-      "name": "Zeus Mace"
-    },
-    {
-      "id": 66,
-      "name": "Staff of the Magi"
-    },
-    {
-      "id": 67,
-      "name": "Iron Flail"
-    },
-    {
-      "id": 68,
-      "name": "Flame Mace"
-    },
-    {
-      "id": 69,
-      "name": "Morning Star"
-    },
-    {
-      "id": 70,
-      "name": "Scorpion Tail"
-    },
-    {
-      "id": 71,
-      "name": "Romandan Pistol"
-    },
-    {
-      "id": 72,
-      "name": "Mythril Gun"
-    },
-    {
-      "id": 73,
-      "name": "Stoneshooter"
-    },
-    {
-      "id": 74,
-      "name": "Glacial Gun"
-    },
-    {
-      "id": 75,
-      "name": "Blaze Gun"
-    },
-    {
-      "id": 76,
-      "name": "Blaster"
-    },
-    {
-      "id": 77,
-      "name": "Bowgun"
-    },
-    {
-      "id": 78,
-      "name": "Knightslayer"
-    },
-    {
-      "id": 79,
-      "name": "Crossbow"
-    },
-    {
-      "id": 80,
-      "name": "Poison Bow"
-    },
-    {
-      "id": 81,
-      "name": "Hunting Bow"
-    },
-    {
-      "id": 82,
-      "name": "Gastrophetes"
-    },
-    {
-      "id": 83,
-      "name": "Longbow"
-    },
-    {
-      "id": 84,
-      "name": "Silver Bow"
-    },
-    {
-      "id": 85,
-      "name": "Ice Bow"
-    },
-    {
-      "id": 86,
-      "name": "Lightning Bow"
-    },
-    {
-      "id": 87,
-      "name": "Windslash Bow"
-    },
-    {
-      "id": 88,
-      "name": "Mythril Bow"
-    },
-    {
-      "id": 89,
-      "name": "Artemis Bow"
-    },
-    {
-      "id": 90,
-      "name": "Yoichi Bow"
-    },
-    {
-      "id": 91,
-      "name": "Perseus Bow"
-    },
-    {
-      "id": 92,
-      "name": "Lamia's Harp"
-    },
-    {
-      "id": 93,
-      "name": "Bloodstring Harp"
-    },
-    {
-      "id": 94,
-      "name": "Faerie Harp"
-    },
-    {
-      "id": 95,
-      "name": "Battle Folio"
-    },
-    {
-      "id": 96,
-      "name": "Bestiary"
-    },
-    {
-      "id": 97,
-      "name": "Papyrus Codex"
-    },
-    {
-      "id": 98,
-      "name": "Omnilex"
-    },
-    {
-      "id": 99,
-      "name": "Javelin"
-    },
-    {
-      "id": 100,
-      "name": "Spear"
-    },
-    {
-      "id": 101,
-      "name": "Mythril Spear"
-    },
-    {
-      "id": 102,
-      "name": "Partisan"
-    },
-    {
-      "id": 103,
-      "name": "Obelisk"
-    },
-    {
-      "id": 104,
-      "name": "Holy Lance"
-    },
-    {
-      "id": 105,
-      "name": "Dragon Whisker"
-    },
-    {
-      "id": 106,
-      "name": "Javelin (Strong)"
-    },
-    {
-      "id": 107,
-      "name": "Cypress Pole"
-    },
-    {
-      "id": 108,
-      "name": "Battle Bamboo"
-    },
-    {
-      "id": 109,
-      "name": "Musk Pole"
-    },
-    {
-      "id": 110,
-      "name": "Iron Fan"
-    },
-    {
-      "id": 111,
-      "name": "Gokuu Pole"
-    },
-    {
-      "id": 112,
-      "name": "Ivory Pole"
-    },
-    {
-      "id": 113,
-      "name": "Eight-fluted Pole"
-    },
-    {
-      "id": 114,
-      "name": "Whale Whisker"
-    },
-    {
-      "id": 115,
-      "name": "Croakadile Bag"
-    },
-    {
-      "id": 116,
-      "name": "Fallingstar Bag"
-    },
-    {
-      "id": 117,
-      "name": "Pantherskin Bag"
-    },
-    {
-      "id": 118,
-      "name": "Hydrascale Bag"
-    },
-    {
-      "id": 119,
-      "name": "Damask Cloth"
-    },
-    {
-      "id": 120,
-      "name": "Cashmere"
-    },
-    {
-      "id": 121,
-      "name": "Wyrmweave Silk"
-    },
-    {
-      "id": 122,
-      "name": "Shuriken"
-    },
-    {
-      "id": 123,
-      "name": "Fuma Shuriken"
-    },
-    {
-      "id": 124,
-      "name": "Yagyu Darkrood"
-    },
-    {
-      "id": 125,
-      "name": "Flameburst Bomb"
-    },
-    {
-      "id": 126,
-      "name": "Snowmelt Bomb"
-    },
-    {
-      "id": 127,
-      "name": "Spark Bomb"
-    },
-    {
-      "id": 128,
-      "name": "Escutcheon (weak)"
-    },
-    {
-      "id": 129,
-      "name": "Buckler"
-    },
-    {
-      "id": 130,
-      "name": "Bronze Shield"
-    },
-    {
-      "id": 131,
-      "name": "Round Shield"
-    },
-    {
-      "id": 132,
-      "name": "Mythril Shield"
-    },
-    {
-      "id": 133,
-      "name": "Golden Shield"
-    },
-    {
-      "id": 134,
-      "name": "Ice Shield"
-    },
-    {
-      "id": 135,
-      "name": "Flame Shield"
-    },
-    {
-      "id": 136,
-      "name": "Aegis Shield"
-    },
-    {
-      "id": 137,
-      "name": "Diamond Shield"
-    },
-    {
-      "id": 138,
-      "name": "Platinum Shield"
-    },
-    {
-      "id": 139,
-      "name": "Crystal Shield"
-    },
-    {
-      "id": 140,
-      "name": "Genji Shield"
-    },
-    {
-      "id": 141,
-      "name": "Kaiser Shield"
-    },
-    {
-      "id": 142,
-      "name": "Venetian Shield"
-    },
-    {
-      "id": 143,
-      "name": "Escutcheon (strong)"
-    },
-    {
-      "id": 144,
-      "name": "Leather Helm"
-    },
-    {
-      "id": 145,
-      "name": "Bronze Helm"
-    },
-    {
-      "id": 146,
-      "name": "Iron Helm"
-    },
-    {
-      "id": 147,
-      "name": "Barbut"
-    },
-    {
-      "id": 148,
-      "name": "Mythril Helm"
-    },
-    {
-      "id": 149,
-      "name": "Golden Helm"
-    },
-    {
-      "id": 150,
-      "name": "Close Helmet"
-    },
-    {
-      "id": 151,
-      "name": "Diamond Helm"
-    },
-    {
-      "id": 152,
-      "name": "Platinum Helm"
-    },
-    {
-      "id": 153,
-      "name": "Circlet"
-    },
-    {
-      "id": 154,
-      "name": "Crystal Helm"
-    },
-    {
-      "id": 155,
-      "name": "Genji Helm"
-    },
-    {
-      "id": 156,
-      "name": "Grand Helm"
-    },
-    {
-      "id": 157,
-      "name": "Leather Cap"
-    },
-    {
-      "id": 158,
-      "name": "Plumed Hat"
-    },
-    {
-      "id": 159,
-      "name": "Red Hood"
-    },
-    {
-      "id": 160,
-      "name": "Headgear"
-    },
-    {
-      "id": 161,
-      "name": "Wizard's Hat"
-    },
-    {
-      "id": 162,
-      "name": "Green Beret"
-    },
-    {
-      "id": 163,
-      "name": "Headband"
-    },
-    {
-      "id": 164,
-      "name": "Celebrant's Miter"
-    },
-    {
-      "id": 165,
-      "name": "Black Cowl"
-    },
-    {
-      "id": 166,
-      "name": "Gold Hairpin"
-    },
-    {
-      "id": 167,
-      "name": "Lambent Hat"
-    },
-    {
-      "id": 168,
-      "name": "Thief's Cap"
-    },
-    {
-      "id": 169,
-      "name": "Cachusha"
-    },
-    {
-      "id": 170,
-      "name": "Barette"
-    },
-    {
-      "id": 171,
-      "name": "Ribbon"
-    },
-    {
-      "id": 172,
-      "name": "Leather Armor"
-    },
-    {
-      "id": 173,
-      "name": "Linen Cuirass"
-    },
-    {
-      "id": 174,
-      "name": "Bronze Armor"
-    },
-    {
-      "id": 175,
-      "name": "Chainmail"
-    },
-    {
-      "id": 176,
-      "name": "Mythril Armor"
-    },
-    {
-      "id": 177,
-      "name": "Plate Mail"
-    },
-    {
-      "id": 178,
-      "name": "Golden Armor"
-    },
-    {
-      "id": 179,
-      "name": "Diamond Armor"
-    },
-    {
-      "id": 180,
-      "name": "Platinum Armor"
-    },
-    {
-      "id": 181,
-      "name": "Carabiner Mail"
-    },
-    {
-      "id": 182,
-      "name": "Crystal Mail"
-    },
-    {
-      "id": 183,
-      "name": "Genji Armor"
-    },
-    {
-      "id": 184,
-      "name": "Mirror Mail"
-    },
-    {
-      "id": 185,
-      "name": "Maximillian"
-    },
-    {
-      "id": 186,
-      "name": "Clothing"
-    },
-    {
-      "id": 187,
-      "name": "Leather Clothing"
-    },
-    {
-      "id": 188,
-      "name": "Leather Plate"
-    },
-    {
-      "id": 189,
-      "name": "Ringmail"
-    },
-    {
-      "id": 190,
-      "name": "Mythril Vest"
-    },
-    {
-      "id": 191,
-      "name": "Adamant Vest"
-    },
-    {
-      "id": 192,
-      "name": "Wizard Clothing"
-    },
-    {
-      "id": 193,
-      "name": "Brigandine"
-    },
-    {
-      "id": 194,
-      "name": "Jujitsu Gi"
-    },
-    {
-      "id": 195,
-      "name": "Power Garb"
-    },
-    {
-      "id": 196,
-      "name": "Gaia Gear"
-    },
-    {
-      "id": 197,
-      "name": "Ninja Gear"
-    },
-    {
-      "id": 198,
-      "name": "Black Garb"
-    },
-    {
-      "id": 199,
-      "name": "Rubber Suit"
-    },
-    {
-      "id": 200,
-      "name": "Hempen Robe"
-    },
-    {
-      "id": 201,
-      "name": "Silken Robe"
-    },
-    {
-      "id": 202,
-      "name": "Wizard's Robe"
-    },
-    {
-      "id": 203,
-      "name": "Chameleon Robe"
-    },
-    {
-      "id": 204,
-      "name": "White Robe"
-    },
-    {
-      "id": 205,
-      "name": "Black Robe"
-    },
-    {
-      "id": 206,
-      "name": "Luminous Robe"
-    },
-    {
-      "id": 207,
-      "name": "Lordly Robe"
-    },
-    {
-      "id": 208,
-      "name": "Battle Boots"
-    },
-    {
-      "id": 209,
-      "name": "Spiked Boots"
-    },
-    {
-      "id": 210,
-      "name": "Germinas Boots"
-    },
-    {
-      "id": 211,
-      "name": "Rubber Boots"
-    },
-    {
-      "id": 212,
-      "name": "Winged Boots"
-    },
-    {
-      "id": 213,
-      "name": "Hermes Shoes"
-    },
-    {
-      "id": 214,
-      "name": "Red Shoes"
-    },
-    {
-      "id": 215,
-      "name": "Power Gauntlet"
-    },
-    {
-      "id": 216,
-      "name": "Genji Glove"
-    },
-    {
-      "id": 217,
-      "name": "Magepower Glove"
-    },
-    {
-      "id": 218,
-      "name": "Bracer"
-    },
-    {
-      "id": 219,
-      "name": "Reflect Ring"
-    },
-    {
-      "id": 220,
-      "name": "Protect Ring"
-    },
-    {
-      "id": 221,
-      "name": "Magick Ring"
-    },
-    {
-      "id": 222,
-      "name": "Cursed Ring"
-    },
-    {
-      "id": 223,
-      "name": "Angel Ring"
-    },
-    {
-      "id": 224,
-      "name": "Diamond Bracelet"
-    },
-    {
-      "id": 225,
-      "name": "Jade Armlet"
-    },
-    {
-      "id": 226,
-      "name": "Japa Mala"
-    },
-    {
-      "id": 227,
-      "name": "Nu Khai Armband"
-    },
-    {
-      "id": 228,
-      "name": "Guardian Bracelet"
-    },
-    {
-      "id": 229,
-      "name": "Shoulder Cape"
-    },
-    {
-      "id": 230,
-      "name": "Leather Cloak"
-    },
-    {
-      "id": 231,
-      "name": "Mage's Cloak"
-    },
-    {
-      "id": 232,
-      "name": "Elven Cloak"
-    },
-    {
-      "id": 233,
-      "name": "Vampire Cape"
-    },
-    {
-      "id": 234,
-      "name": "Featherweave Cape"
-    },
-    {
-      "id": 235,
-      "name": "Invisibility Cloak"
-    },
-    {
-      "id": 236,
-      "name": "Chantage"
-    },
-    {
-      "id": 237,
-      "name": "Cherche"
-    },
-    {
-      "id": 238,
-      "name": "Septième"
-    },
-    {
-      "id": 239,
-      "name": "Sortilége"
-    },
-    {
-      "id": 240,
-      "name": "Potion"
-    },
-    {
-      "id": 241,
-      "name": "Hi-Potion"
-    },
-    {
-      "id": 242,
-      "name": "X-Potion"
-    },
-    {
-      "id": 243,
-      "name": "Ether"
-    },
-    {
-      "id": 244,
-      "name": "Hi-Ether"
-    },
-    {
-      "id": 245,
-      "name": "Elixir"
-    },
-    {
-      "id": 246,
-      "name": "Antidote"
-    },
-    {
-      "id": 247,
-      "name": "Eye Drops"
-    },
-    {
-      "id": 248,
-      "name": "Echo Herbs"
-    },
-    {
-      "id": 249,
-      "name": "Maiden's Kiss"
-    },
-    {
-      "id": 250,
-      "name": "Gold Needle"
-    },
-    {
-      "id": 251,
-      "name": "Holy Water"
-    },
-    {
-      "id": 252,
-      "name": "Remedy"
-    },
-    {
-      "id": 253,
-      "name": "Phoenix Down"
-    },
+  {
+    "id": 0,
+    "name": "(None)",
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0
+  },
+  {
+    "id": 1,
+    "name": "Dagger",
+    "palette": 0,
+    "sprite": 1,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 1,
+    "price": 100,
+    "shop": 1
+  },
+  {
+    "id": 2,
+    "name": "Mythril Knife",
+    "palette": 0,
+    "sprite": 2,
+    "level": 3,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 2,
+    "price": 500,
+    "shop": 2
+  },
+  {
+    "id": 3,
+    "name": "Blind Knife",
+    "palette": 0,
+    "sprite": 4,
+    "level": 7,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 3,
+    "price": 800,
+    "shop": 3
+  },
+  {
+    "id": 4,
+    "name": "Mage Masher",
+    "palette": 2,
+    "sprite": 6,
+    "level": 11,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 4,
+    "price": 1500,
+    "shop": 4
+  },
+  {
+    "id": 5,
+    "name": "Platinum Dagger",
+    "palette": 4,
+    "sprite": 1,
+    "level": 14,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 5,
+    "price": 1800,
+    "shop": 6
+  },
+  {
+    "id": 6,
+    "name": "Main Gauche",
+    "palette": 0,
+    "sprite": 3,
+    "level": 21,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 6,
+    "price": 3000,
+    "shop": 10
+  },
+  {
+    "id": 7,
+    "name": "Orichalcum Dirk",
+    "palette": 4,
+    "sprite": 5,
+    "level": 25,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 7,
+    "price": 4000,
+    "shop": 11
+  },
+  {
+    "id": 8,
+    "name": "Assassin's Dagger",
+    "palette": 0,
+    "sprite": 6,
+    "level": 29,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 8,
+    "price": 5000,
+    "shop": 12
+  },
+  {
+    "id": 9,
+    "name": "Air Knife",
+    "palette": 4,
+    "sprite": 2,
+    "level": 33,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 9,
+    "price": 8000,
+    "shop": 14
+  },
+  {
+    "id": 10,
+    "name": "Zwill Straightblade",
+    "palette": 2,
+    "sprite": 4,
+    "level": 95,
+    "attributes_id": 0,
+    "type": 1,
+    "secondary": 10,
+    "price": 12000,
+    "shop": 20,
+    "rare":  true
+  },
+  {
+    "id": 11,
+    "name": "Ninja Blade",
+    "palette": 0,
+    "sprite": 7,
+    "level": 10,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 11,
+    "price": 3000,
+    "shop": 9
+  },
+  {
+    "id": 12,
+    "name": "Kunai",
+    "palette": 0,
+    "sprite": 9,
+    "level": 13,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 12,
+    "price": 5000,
+    "shop": 10
+  },
+  {
+    "id": 13,
+    "name": "Kodachi",
+    "palette": 0,
+    "sprite": 8,
+    "level": 15,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 13,
+    "price": 7000,
+    "shop": 11
+  },
+  {
+    "id": 14,
+    "name": "Ninja Longblade",
+    "palette": 2,
+    "sprite": 7,
+    "level": 22,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 14,
+    "price": 10000,
+    "shop": 12
+  },
+  {
+    "id": 15,
+    "name": "Spellbinder",
+    "palette": 4,
+    "sprite": 8,
+    "level": 27,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 15,
+    "price": 16000,
+    "shop": 13
+  },
+  {
+    "id": 16,
+    "name": "Sasuke's Blade",
+    "palette": 4,
+    "sprite": 7,
+    "level": 95,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 16,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 17,
+    "name": "Iga Blade",
+    "palette": 13,
+    "sprite": 10,
+    "level": 96,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 17,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 18,
+    "name": "Koga Blade",
+    "palette": 11,
+    "sprite": 11,
+    "level": 96,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 18,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 19,
+    "name": "Broadsword",
+    "palette": 0,
+    "sprite": 12,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 19,
+    "price": 200,
+    "shop": 1
+  },
+  {
+    "id": 20,
+    "name": "Longsword",
+    "palette": 0,
+    "sprite": 13,
+    "level": 4,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 20,
+    "price": 500,
+    "shop": 2
+  },
+  {
+    "id": 21,
+    "name": "Iron Sword",
+    "palette": 2,
+    "sprite": 14,
+    "level": 7,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 21,
+    "price": 900,
+    "shop": 3
+  },
+  {
+    "id": 22,
+    "name": "Mythril Sword",
+    "palette": 2,
+    "sprite": 15,
+    "level": 9,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 22,
+    "price": 1600,
+    "shop": 4
+  },
+  {
+    "id": 23,
+    "name": "Blood Sword",
+    "palette": 3,
+    "sprite": 14,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 23,
+    "price": 2500,
+    "shop": 5,
+    "rare": true
+  },
+  {
+    "id": 24,
+    "name": "Coral Sword",
+    "palette": 1,
+    "sprite": 16,
+    "level": 15,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 24,
+    "price": 3300,
+    "shop": 6
+  },
+  {
+    "id": 25,
+    "name": "Ancient Sword",
+    "palette": 3,
+    "sprite": 15,
+    "level": 21,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 25,
+    "price": 5000,
+    "shop": 9
+  },
+  {
+    "id": 26,
+    "name": "Sleep Blade",
+    "palette": 4,
+    "sprite": 12,
+    "level": 23,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 26,
+    "price": 5000,
+    "shop": 10
+  },
+  {
+    "id": 27,
+    "name": "Platinum Sword",
+    "palette": 4,
+    "sprite": 17,
+    "level": 28,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 27,
+    "price": 11000,
+    "shop": 12
+  },
+  {
+    "id": 28,
+    "name": "Diamond Sword",
+    "palette": 0,
+    "sprite": 18,
+    "level": 26,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 28,
+    "price": 8000,
+    "shop": 11
+  },
+  {
+    "id": 29,
+    "name": "Icebrand",
+    "palette": 1,
+    "sprite": 13,
+    "level": 34,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 29,
+    "price": 14000,
+    "shop": 13
+  },
+  {
+    "id": 30,
+    "name": "Runeblade",
+    "palette": 4,
+    "sprite": 19,
+    "level": 37,
+    "attributes_id": 1,
+    "type": 3,
+    "secondary": 30,
+    "price": 20000,
+    "shop": 14
+  },
+  {
+    "id": 31,
+    "name": "Nagnarok",
+    "palette": 3,
+    "sprite": 20,
+    "level": 95,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 31,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 32,
+    "name": "Materia Blade",
+    "palette": 1,
+    "sprite": 21,
+    "level": 96,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 32,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 33,
+    "name": "Defender",
+    "palette": 3,
+    "sprite": 22,
+    "level": 92,
+    "attributes_id": 0,
+    "type": 4,
+    "secondary": 33,
+    "price": 40000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 34,
+    "name": "Save the Queen",
+    "palette": 0,
+    "sprite": 23,
+    "level": 95,
+    "attributes_id": 2,
+    "type": 4,
+    "secondary": 34,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 35,
+    "name": "Excalibur",
+    "palette": 3,
+    "sprite": 24,
+    "level": 96,
+    "attributes_id": 3,
+    "type": 4,
+    "secondary": 35,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 36,
+    "name": "Ragnarok",
+    "palette": 4,
+    "sprite": 25,
+    "level": 97,
+    "attributes_id": 4,
+    "type": 4,
+    "secondary": 36,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 37,
+    "name": "Chaos Blade",
+    "palette": 4,
+    "sprite": 22,
+    "level": 98,
+    "attributes_id": 5,
+    "type": 4,
+    "secondary": 37,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 38,
+    "name": "Ashura",
+    "palette": 0,
+    "sprite": 26,
+    "level": 9,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 38,
+    "price": 1600,
+    "shop": 7
+  },
+  {
+    "id": 39,
+    "name": "Kotetsu",
+    "palette": 1,
+    "sprite": 27,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 39,
+    "price": 3000,
+    "shop": 7
+  },
+  {
+    "id": 40,
+    "name": "Osafune",
+    "palette": 1,
+    "sprite": 28,
+    "level": 15,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 40,
+    "price": 5000,
+    "shop": 8
+  },
+  {
+    "id": 41,
+    "name": "Murasame",
+    "palette": 4,
+    "sprite": 26,
+    "level": 21,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 41,
+    "price": 7000,
+    "shop": 9
+  },
+  {
+    "id": 42,
+    "name": "Ama-no-Murakamo",
+    "palette": 4,
+    "sprite": 29,
+    "level": 24,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 42,
+    "price": 8000,
+    "shop": 10
+  },
+  {
+    "id": 43,
+    "name": "Kiyomori",
+    "palette": 5,
+    "sprite": 28,
+    "level": 27,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 43,
+    "price": 10000,
+    "shop": 12
+  },
+  {
+    "id": 44,
+    "name": "Muramasa",
+    "palette": 3,
+    "sprite": 30,
+    "level": 30,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 44,
+    "price": 15000,
+    "shop": 13
+  },
+  {
+    "id": 45,
+    "name": "Kiku-ichimonji",
+    "palette": 5,
+    "sprite": 31,
+    "level": 33,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 45,
+    "price": 22000,
+    "shop": 14
+  },
+  {
+    "id": 46,
+    "name": "Masamune",
+    "palette": 5,
+    "sprite": 27,
+    "level": 95,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 46,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 47,
+    "name": "Chirijiraden",
+    "palette": 3,
+    "sprite": 26,
+    "level": 96,
+    "attributes_id": 0,
+    "type": 5,
+    "secondary": 47,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 48,
+    "name": "Battle Axe",
+    "palette": 0,
+    "sprite": 32,
+    "level": 4,
+    "attributes_id": 0,
+    "type": 6,
+    "secondary": 48,
+    "price": 1500,
+    "shop": 4
+  },
+  {
+    "id": 49,
+    "name": "Giant's Axe",
+    "palette": 15,
+    "sprite": 33,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 6,
+    "secondary": 49,
+    "price": 4000,
+    "shop": 7
+  },
+  {
+    "id": 50,
+    "name": "Slasher",
+    "palette": 5,
+    "sprite": 34,
+    "level": 31,
+    "attributes_id": 0,
+    "type": 6,
+    "secondary": 50,
+    "price": 12000,
+    "shop": 10
+  },
+  {
+    "id": 51,
+    "name": "Rod",
+    "palette": 5,
+    "sprite": 35,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 7,
+    "secondary": 51,
+    "price": 200,
+    "shop": 1
+  },
+  {
+    "id": 52,
+    "name": "Thunder Rod",
+    "palette": 2,
+    "sprite": 37,
+    "level": 5,
+    "attributes_id": 6,
+    "type": 7,
+    "secondary": 52,
+    "price": 400,
+    "shop": 3
+  },
+  {
+    "id": 53,
+    "name": "Flame Rod",
+    "palette": 6,
+    "sprite": 36,
+    "level": 5,
+    "attributes_id": 7,
+    "type": 7,
+    "secondary": 53,
+    "price": 400,
+    "shop": 3
+  },
+  {
+    "id": 54,
+    "name": "Ice Rod",
+    "palette": 1,
+    "sprite": 37,
+    "level": 5,
+    "attributes_id": 8,
+    "type": 7,
+    "secondary": 54,
+    "price": 400,
+    "shop": 3
+  },
+  {
+    "id": 55,
+    "name": "Poison Rod",
+    "palette": 6,
+    "sprite": 36,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 7,
+    "secondary": 55,
+    "price": 500,
+    "shop": 6
+  },
+  {
+    "id": 56,
+    "name": "Wizard's Rod",
+    "palette": 0,
+    "sprite": 38,
+    "level": 23,
+    "attributes_id": 9,
+    "type": 7,
+    "secondary": 56,
+    "price": 8000,
+    "shop": 11
+  },
+  {
+    "id": 57,
+    "name": "Dragon Rod",
+    "palette": 7,
+    "sprite": 36,
+    "level": 95,
+    "attributes_id": 0,
+    "type": 7,
+    "secondary": 57,
+    "price": 12000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 58,
+    "name": "Rod of Faith",
+    "palette": 3,
+    "sprite": 37,
+    "level": 96,
+    "attributes_id": 73,
+    "type": 7,
+    "secondary": 58,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 59,
+    "name": "Oak Staff",
+    "palette": 3,
+    "sprite": 39,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 8,
+    "secondary": 59,
+    "price": 120,
+    "shop": 1
+  },
+  {
+    "id": 60,
+    "name": "White Staff",
+    "palette": 2,
+    "sprite": 39,
+    "level": 5,
+    "attributes_id": 0,
+    "type": 8,
+    "secondary": 60,
+    "price": 800,
+    "shop": 3
+  },
+  {
+    "id": 61,
+    "name": "Healing Staff",
+    "palette": 0,
+    "sprite": 40,
+    "level": 9,
+    "attributes_id": 0,
+    "type": 8,
+    "secondary": 61,
+    "price": 4000,
+    "shop": 4,
+    "rare": true
+  },
+  {
+    "id": 62,
+    "name": "Serpent Staff",
+    "palette": 1,
+    "sprite": 39,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 8,
+    "secondary": 62,
+    "price": 2200,
+    "shop": 6
+  },
+  {
+    "id": 63,
+    "name": "Mage's Staff",
+    "palette": 3,
+    "sprite": 41,
+    "level": 15,
+    "attributes_id": 10,
+    "type": 8,
+    "secondary": 63,
+    "price": 4000,
+    "shop": 8
+  },
+  {
+    "id": 64,
+    "name": "Golden Staff",
+    "palette": 2,
+    "sprite": 41,
+    "level": 24,
+    "attributes_id": 0,
+    "type": 8,
+    "secondary": 64,
+    "price": 7000,
+    "shop": 11
+  },
+  {
+    "id": 65,
+    "name": "Zeus Mace",
+    "palette": 0,
+    "sprite": 42,
+    "level": 95,
+    "attributes_id": 11,
+    "type": 8,
+    "secondary": 65,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 66,
+    "name": "Staff of the Magi",
+    "palette": 2,
+    "sprite": 42,
+    "level": 96,
+    "attributes_id": 0,
+    "type": 8,
+    "secondary": 66,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 67,
+    "name": "Iron Flail",
+    "palette": 2,
+    "sprite": 43,
+    "level": 10,
+    "attributes_id": 0,
+    "type": 9,
+    "secondary": 67,
+    "price": 1200,
+    "shop": 8
+  },
+  {
+    "id": 68,
+    "name": "Flame Mace",
+    "palette": 1,
+    "sprite": 43,
+    "level": 20,
+    "attributes_id": 0,
+    "type": 9,
+    "secondary": 68,
+    "price": 4000,
+    "shop": 10
+  },
+  {
+    "id": 69,
+    "name": "Morning Star",
+    "palette": 0,
+    "sprite": 43,
+    "level": 32,
+    "attributes_id": 0,
+    "type": 9,
+    "secondary": 69,
+    "price": 9000,
+    "shop": 12
+  },
+  {
+    "id": 70,
+    "name": "Scorpion Tail",
+    "palette": 3,
+    "sprite": 43,
+    "level": 90,
+    "attributes_id": 0,
+    "type": 9,
+    "secondary": 70,
+    "price": 40000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 71,
+    "name": "Romandan Pistol",
+    "palette": 5,
+    "sprite": 44,
+    "level": 11,
+    "attributes_id": 0,
+    "type": 10,
+    "secondary": 71,
+    "price": 5000,
+    "shop": 7,
+    "rare": true
+  },
+  {
+    "id": 72,
+    "name": "Mythril Gun",
+    "palette": 7,
+    "sprite": 44,
+    "level": 15,
+    "attributes_id": 0,
+    "type": 10,
+    "secondary": 72,
+    "price": 15000,
+    "shop": 10,
+    "rare": true
+  },
+  {
+    "id": 73,
+    "name": "Stoneshooter",
+    "palette": 0,
+    "sprite": 45,
+    "level": 95,
+    "attributes_id": 72,
+    "type": 10,
+    "secondary": 73,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 74,
+    "name": "Glacial Gun",
+    "palette": 3,
+    "sprite": 46,
+    "level": 91,
+    "attributes_id": 0,
+    "type": 10,
+    "secondary": 74,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 75,
+    "name": "Blaze Gun",
+    "palette": 5,
+    "sprite": 46,
+    "level": 92,
+    "attributes_id": 0,
+    "type": 10,
+    "secondary": 75,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 76,
+    "name": "Blaster",
+    "palette": 7,
+    "sprite": 46,
+    "level": 93,
+    "attributes_id": 0,
+    "type": 10,
+    "secondary": 76,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 77,
+    "name": "Bowgun",
+    "palette": 3,
+    "sprite": 47,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 11,
+    "secondary": 77,
+    "price": 400,
+    "shop": 1
+  },
+  {
+    "id": 78,
+    "name": "Knightslayer",
+    "palette": 1,
+    "sprite": 47,
+    "level": 5,
+    "attributes_id": 0,
+    "type": 11,
+    "secondary": 78,
+    "price": 1500,
+    "shop": 4,
+    "rare": true
+  },
+  {
+    "id": 79,
+    "name": "Crossbow",
+    "palette": 7,
+    "sprite": 47,
+    "level": 11,
+    "attributes_id": 0,
+    "type": 11,
+    "secondary": 79,
+    "price": 2000,
+    "shop": 7
+  },
+  {
+    "id": 80,
+    "name": "Poison Bow",
+    "palette": 6,
+    "sprite": 48,
+    "level": 14,
+    "attributes_id": 0,
+    "type": 11,
+    "secondary": 80,
+    "price": 4000,
+    "shop": 9
+  },
+  {
+    "id": 81,
+    "name": "Hunting Bow",
+    "palette": 7,
+    "sprite": 48,
+    "level": 24,
+    "attributes_id": 0,
+    "type": 11,
+    "secondary": 81,
+    "price": 8000,
+    "shop": 11
+  },
+  {
+    "id": 82,
+    "name": "Gastrophetes",
+    "palette": 2,
+    "sprite": 48,
+    "level": 33,
+    "attributes_id": 0,
+    "type": 11,
+    "secondary": 82,
+    "price": 20000,
+    "shop": 14,
+    "rare": true
+  },
+  {
+    "id": 83,
+    "name": "Longbow",
+    "palette": 3,
+    "sprite": 49,
+    "level": 2,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 83,
+    "price": 800,
+    "shop": 3
+  },
+  {
+    "id": 84,
+    "name": "Silver Bow",
+    "palette": 2,
+    "sprite": 49,
+    "level": 6,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 84,
+    "price": 1500,
+    "shop": 4
+  },
+  {
+    "id": 85,
+    "name": "Ice Bow",
+    "palette": 5,
+    "sprite": 49,
+    "level": 11,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 85,
+    "price": 2000,
+    "shop": 5
+  },
+  {
+    "id": 86,
+    "name": "Lightning Bow",
+    "palette": 0,
+    "sprite": 50,
+    "level": 15,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 86,
+    "price": 3000,
+    "shop": 7
+  },
+  {
+    "id": 87,
+    "name": "Windslash Bow",
+    "palette": 7,
+    "sprite": 49,
+    "level": 27,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 87,
+    "price": 8000,
+    "shop": 11
+  },
+  {
+    "id": 88,
+    "name": "Mythril Bow",
+    "palette": 7,
+    "sprite": 51,
+    "level": 20,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 88,
+    "price": 5000,
+    "shop": 9
+  },
+  {
+    "id": 89,
+    "name": "Artemis Bow",
+    "palette": 1,
+    "sprite": 51,
+    "level": 37,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 89,
+    "price": 22000,
+    "shop": 14
+  },
+  {
+    "id": 90,
+    "name": "Yoichi Bow",
+    "palette": 3,
+    "sprite": 52,
+    "level": 52,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 90,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 91,
+    "name": "Perseus Bow",
+    "palette": 5,
+    "sprite": 53,
+    "level": 53,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 91,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 92,
+    "name": "Lamia's Harp",
+    "palette": 3,
+    "sprite": 54,
+    "level": 13,
+    "attributes_id": 0,
+    "type": 13,
+    "secondary": 92,
+    "price": 5000,
+    "shop": 7
+  },
+  {
+    "id": 93,
+    "name": "Bloodstring Harp",
+    "palette": 6,
+    "sprite": 54,
+    "level": 25,
+    "attributes_id": 0,
+    "type": 13,
+    "secondary": 93,
+    "price": 10000,
+    "shop": 11
+  },
+  {
+    "id": 94,
+    "name": "Faerie Harp",
+    "palette": 2,
+    "sprite": 54,
+    "level": 36,
+    "attributes_id": 0,
+    "type": 13,
+    "secondary": 94,
+    "price": 30000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 95,
+    "name": "Battle Folio",
+    "palette": 2,
+    "sprite": 55,
+    "level": 13,
+    "attributes_id": 0,
+    "type": 14,
+    "secondary": 95,
+    "price": 3000,
+    "shop": 7
+  },
+  {
+    "id": 96,
+    "name": "Bestiary",
+    "palette": 7,
+    "sprite": 55,
+    "level": 23,
+    "attributes_id": 0,
+    "type": 14,
+    "secondary": 96,
+    "price": 6000,
+    "shop": 10
+  },
+  {
+    "id": 97,
+    "name": "Papyrus Codex",
+    "palette": 5,
+    "sprite": 55,
+    "level": 34,
+    "attributes_id": 0,
+    "type": 14,
+    "secondary": 97,
+    "price": 10000,
+    "shop": 11
+  },
+  {
+    "id": 98,
+    "name": "Omnilex",
+    "palette": 3,
+    "sprite": 55,
+    "level": 95,
+    "attributes_id": 0,
+    "type": 14,
+    "secondary": 98,
+    "price": 30000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 99,
+    "name": "Javelin",
+    "palette": 2,
+    "sprite": 56,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 99,
+    "price": 1000,
+    "shop": 5
+  },
+  {
+    "id": 100,
+    "name": "Spear",
+    "palette": 1,
+    "sprite": 59,
+    "level": 16,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 100,
+    "price": 2000,
+    "shop": 7
+  },
+  {
+    "id": 101,
+    "name": "Mythril Spear",
+    "palette": 4,
+    "sprite": 57,
+    "level": 21,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 101,
+    "price": 4500,
+    "shop": 9
+  },
+  {
+    "id": 102,
+    "name": "Partisan",
+    "palette": 7,
+    "sprite": 59,
+    "level": 25,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 102,
+    "price": 7000,
+    "shop": 11
+  },
+  {
+    "id": 103,
+    "name": "Obelisk",
+    "palette": 4,
+    "sprite": 58,
+    "level": 29,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 103,
+    "price": 10000,
+    "shop": 14
+  },
+  {
+    "id": 104,
+    "name": "Holy Lance",
+    "palette": 2,
+    "sprite": 60,
+    "level": 95,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 104,
+    "price": 36000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 105,
+    "name": "Dragon Whisker",
+    "palette": 5,
+    "sprite": 56,
+    "level": 96,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 105,
+    "price": 44000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 106,
+    "name": "Javelin (Strong)",
+    "palette": 6,
+    "sprite": 60,
+    "level": 97,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 106,
+    "price": 1000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 107,
+    "name": "Cypress Pole",
+    "palette": 0,
+    "sprite": 61,
+    "level": 9,
+    "attributes_id": 0,
+    "type": 16,
+    "secondary": 107,
+    "price": 1000,
+    "shop": 6
+  },
+  {
+    "id": 108,
+    "name": "Battle Bamboo",
+    "palette": 7,
+    "sprite": 62,
+    "level": 13,
+    "attributes_id": 0,
+    "type": 16,
+    "secondary": 108,
+    "price": 1400,
+    "shop": 7
+  },
+  {
+    "id": 109,
+    "name": "Musk Pole",
+    "palette": 2,
+    "sprite": 61,
+    "level": 21,
+    "attributes_id": 0,
+    "type": 16,
+    "secondary": 109,
+    "price": 2400,
+    "shop": 9
+  },
+  {
+    "id": 110,
+    "name": "Iron Fan",
+    "palette": 1,
+    "sprite": 62,
+    "level": 24,
+    "attributes_id": 0,
+    "type": 16,
+    "secondary": 110,
+    "price": 4000,
+    "shop": 10
+  },
+  {
+    "id": 111,
+    "name": "Gokuu Pole",
+    "palette": 3,
+    "sprite": 63,
+    "level": 27,
+    "attributes_id": 0,
+    "type": 16,
+    "secondary": 111,
+    "price": 7500,
+    "shop": 11
+  },
+  {
+    "id": 112,
+    "name": "Ivory Pole",
+    "palette": 6,
+    "sprite": 64,
+    "level": 95,
+    "attributes_id": 0,
+    "type": 16,
+    "secondary": 112,
+    "price": 10000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 113,
+    "name": "Eight-fluted Pole",
+    "palette": 0,
+    "sprite": 63,
+    "level": 40,
+    "attributes_id": 0,
+    "type": 16,
+    "secondary": 113,
+    "price": 20000,
+    "shop": 14
+  },
+  {
+    "id": 114,
+    "name": "Whale Whisker",
+    "palette": 3,
+    "sprite": 65,
+    "level": 96,
+    "attributes_id": 0,
+    "type": 16,
+    "secondary": 114,
+    "price": 37000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 115,
+    "name": "Croakadile Bag",
+    "palette": 2,
+    "sprite": 66,
+    "level": 80,
+    "attributes_id": 12,
+    "type": 17,
+    "secondary": 115,
+    "price": 53000,
+    "shop": 9,
+    "rare": true
+  },
+  {
+    "id": 116,
+    "name": "Fallingstar Bag",
+    "palette": 7,
+    "sprite": 66,
+    "level": 81,
+    "attributes_id": 0,
+    "type": 17,
+    "secondary": 116,
+    "price": 60000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 117,
+    "name": "Pantherskin Bag",
+    "palette": 5,
+    "sprite": 66,
+    "level": 82,
+    "attributes_id": 13,
+    "type": 17,
+    "secondary": 117,
+    "price": 52000,
+    "shop": 11,
+    "rare": true
+  },
+  {
+    "id": 118,
+    "name": "Hydrascale Bag",
+    "palette": 1,
+    "sprite": 66,
+    "level": 83,
+    "attributes_id": 14,
+    "type": 17,
+    "secondary": 118,
+    "price": 58000,
+    "shop": 14,
+    "rare": true
+  },
+  {
+    "id": 119,
+    "name": "Damask Cloth",
+    "palette": 5,
+    "sprite": 67,
+    "level": 24,
+    "attributes_id": 0,
+    "type": 18,
+    "secondary": 119,
+    "price": 7000,
+    "shop": 10
+  },
+  {
+    "id": 120,
+    "name": "Cashmere",
+    "palette": 7,
+    "sprite": 68,
+    "level": 29,
+    "attributes_id": 0,
+    "type": 18,
+    "secondary": 120,
+    "price": 15000,
+    "shop": 12
+  },
+  {
+    "id": 121,
+    "name": "Wyrmweave Silk",
+    "palette": 6,
+    "sprite": 67,
+    "level": 95,
+    "attributes_id": 0,
+    "type": 18,
+    "secondary": 121,
+    "price": 40000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 122,
+    "name": "Shuriken",
+    "palette": 0,
+    "sprite": 69,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 32,
+    "secondary": 122,
+    "price": 50,
+    "shop": 5
+  },
+  {
+    "id": 123,
+    "name": "Fuma Shuriken",
+    "palette": 3,
+    "sprite": 69,
+    "level": 18,
+    "attributes_id": 0,
+    "type": 32,
+    "secondary": 123,
+    "price": 300,
+    "shop": 10
+  },
+  {
+    "id": 124,
+    "name": "Yagyu Darkrood",
+    "palette": 1,
+    "sprite": 69,
+    "level": 33,
+    "attributes_id": 0,
+    "type": 32,
+    "secondary": 124,
+    "price": 1000,
+    "shop": 13
+  },
+  {
+    "id": 125,
+    "name": "Flameburst Bomb",
+    "palette": 3,
+    "sprite": 70,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 33,
+    "secondary": 125,
+    "price": 250,
+    "shop": 7
+  },
+  {
+    "id": 126,
+    "name": "Snowmelt Bomb",
+    "palette": 5,
+    "sprite": 70,
+    "level": 18,
+    "attributes_id": 0,
+    "type": 33,
+    "secondary": 126,
+    "price": 250,
+    "shop": 7
+  },
+  {
+    "id": 127,
+    "name": "Spark Bomb",
+    "palette": 2,
+    "sprite": 70,
+    "level": 29,
+    "attributes_id": 0,
+    "type": 33,
+    "secondary": 127,
+    "price": 250,
+    "shop": 7
+  },
+  {
+    "id": 128,
+    "name": "Escutcheon (weak)",
+    "palette": 0,
+    "sprite": 71,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 0,
+    "price": 400,
+    "shop": 1
+  },
+  {
+    "id": 129,
+    "name": "Buckler",
+    "palette": 2,
+    "sprite": 76,
+    "level": 3,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 1,
+    "price": 700,
+    "shop": 3
+  },
+  {
+    "id": 130,
+    "name": "Bronze Shield",
+    "palette": 1,
+    "sprite": 72,
+    "level": 6,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 2,
+    "price": 1200,
+    "shop": 4
+  },
+  {
+    "id": 131,
+    "name": "Round Shield",
+    "palette": 7,
+    "sprite": 76,
+    "level": 9,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 3,
+    "price": 1600,
+    "shop": 5
+  },
+  {
+    "id": 132,
+    "name": "Mythril Shield",
+    "palette": 5,
+    "sprite": 74,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 4,
+    "price": 2500,
+    "shop": 6
+  },
+  {
+    "id": 133,
+    "name": "Golden Shield",
+    "palette": 0,
+    "sprite": 78,
+    "level": 15,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 5,
+    "price": 3500,
+    "shop": 7
+  },
+  {
+    "id": 134,
+    "name": "Ice Shield",
+    "palette": 1,
+    "sprite": 73,
+    "level": 22,
+    "attributes_id": 15,
+    "type": 19,
+    "secondary": 6,
+    "price": 6000,
+    "shop": 9
+  },
+  {
+    "id": 135,
+    "name": "Flame Shield",
+    "palette": 3,
+    "sprite": 79,
+    "level": 22,
+    "attributes_id": 16,
+    "type": 19,
+    "secondary": 7,
+    "price": 6500,
+    "shop": 9
+  },
+  {
+    "id": 136,
+    "name": "Aegis Shield",
+    "palette": 3,
+    "sprite": 73,
+    "level": 22,
+    "attributes_id": 17,
+    "type": 19,
+    "secondary": 8,
+    "price": 10000,
+    "shop": 10
+  },
+  {
+    "id": 137,
+    "name": "Diamond Shield",
+    "palette": 5,
+    "sprite": 77,
+    "level": 25,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 9,
+    "price": 12000,
+    "shop": 11
+  },
+  {
+    "id": 138,
+    "name": "Platinum Shield",
+    "palette": 1,
+    "sprite": 74,
+    "level": 29,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 10,
+    "price": 16000,
+    "shop": 13
+  },
+  {
+    "id": 139,
+    "name": "Crystal Shield",
+    "palette": 1,
+    "sprite": 77,
+    "level": 36,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 11,
+    "price": 21000,
+    "shop": 14
+  },
+  {
+    "id": 140,
+    "name": "Genji Shield",
+    "palette": 5,
+    "sprite": 73,
+    "level": 36,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 12,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 141,
+    "name": "Kaiser Shield",
+    "palette": 1,
+    "sprite": 76,
+    "level": 39,
+    "attributes_id": 18,
+    "type": 19,
+    "secondary": 13,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 142,
+    "name": "Venetian Shield",
+    "palette": 3,
+    "sprite": 75,
+    "level": 40,
+    "attributes_id": 19,
+    "type": 19,
+    "secondary": 14,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 143,
+    "name": "Escutcheon (strong)",
+    "palette": 7,
+    "sprite": 78,
+    "level": 50,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 15,
+    "price": 400,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 144,
+    "name": "Leather Helm",
+    "palette": 0,
+    "sprite": 80,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 0,
+    "price": 200,
+    "shop": 1
+  },
+  {
+    "id": 145,
+    "name": "Bronze Helm",
+    "palette": 13,
+    "sprite": 81,
+    "level": 4,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 1,
+    "price": 500,
+    "shop": 2
+  },
+  {
+    "id": 146,
+    "name": "Iron Helm",
+    "palette": 9,
+    "sprite": 81,
+    "level": 7,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 2,
+    "price": 1000,
+    "shop": 3
+  },
+  {
+    "id": 147,
+    "name": "Barbut",
+    "palette": 11,
+    "sprite": 82,
+    "level": 9,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 3,
+    "price": 1500,
+    "shop": 5
+  },
+  {
+    "id": 148,
+    "name": "Mythril Helm",
+    "palette": 10,
+    "sprite": 83,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 4,
+    "price": 2100,
+    "shop": 6
+  },
+  {
+    "id": 149,
+    "name": "Golden Helm",
+    "palette": 0,
+    "sprite": 83,
+    "level": 15,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 5,
+    "price": 2800,
+    "shop": 7
+  },
+  {
+    "id": 150,
+    "name": "Close Helmet",
+    "palette": 13,
+    "sprite": 84,
+    "level": 17,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 6,
+    "price": 4000,
+    "shop": 8
+  },
+  {
+    "id": 151,
+    "name": "Diamond Helm",
+    "palette": 12,
+    "sprite": 85,
+    "level": 22,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 7,
+    "price": 6000,
+    "shop": 10
+  },
+  {
+    "id": 152,
+    "name": "Platinum Helm",
+    "palette": 10,
+    "sprite": 86,
+    "level": 25,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 8,
+    "price": 8000,
+    "shop": 12
+  },
+  {
+    "id": 153,
+    "name": "Circlet",
+    "palette": 11,
+    "sprite": 87,
+    "level": 29,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 9,
+    "price": 10000,
+    "shop": 12
+  },
+  {
+    "id": 154,
+    "name": "Crystal Helm",
+    "palette": 9,
+    "sprite": 85,
+    "level": 27,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 10,
+    "price": 14000,
+    "shop": 14
+  },
+  {
+    "id": 155,
+    "name": "Genji Helm",
+    "palette": 12,
+    "sprite": 88,
+    "level": 36,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 11,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 156,
+    "name": "Grand Helm",
+    "palette": 9,
+    "sprite": 89,
+    "level": 40,
+    "attributes_id": 20,
+    "type": 20,
+    "secondary": 12,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 157,
+    "name": "Leather Cap",
+    "palette": 11,
+    "sprite": 90,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 21,
+    "secondary": 13,
+    "price": 150,
+    "shop": 1
+  },
+  {
+    "id": 158,
+    "name": "Plumed Hat",
+    "palette": 13,
+    "sprite": 91,
+    "level": 4,
+    "attributes_id": 0,
+    "type": 21,
+    "secondary": 14,
+    "price": 350,
+    "shop": 2
+  },
+  {
+    "id": 159,
+    "name": "Red Hood",
+    "palette": 12,
+    "sprite": 92,
+    "level": 7,
+    "attributes_id": 0,
+    "type": 21,
+    "secondary": 15,
+    "price": 800,
+    "shop": 3
+  },
+  {
+    "id": 160,
+    "name": "Headgear",
+    "palette": 10,
+    "sprite": 93,
+    "level": 10,
+    "attributes_id": 21,
+    "type": 21,
+    "secondary": 16,
+    "price": 1200,
+    "shop": 5
+  },
+  {
+    "id": 161,
+    "name": "Wizard's Hat",
+    "palette": 12,
+    "sprite": 94,
+    "level": 13,
+    "attributes_id": 22,
+    "type": 21,
+    "secondary": 17,
+    "price": 1800,
+    "shop": 6
+  },
+  {
+    "id": 162,
+    "name": "Green Beret",
+    "palette": 11,
+    "sprite": 95,
+    "level": 16,
+    "attributes_id": 23,
+    "type": 21,
+    "secondary": 18,
+    "price": 3000,
+    "shop": 7
+  },
+  {
+    "id": 163,
+    "name": "Headband",
+    "palette": 2,
+    "sprite": 96,
+    "level": 21,
+    "attributes_id": 24,
+    "type": 21,
+    "secondary": 19,
+    "price": 5000,
+    "shop": 9
+  },
+  {
+    "id": 164,
+    "name": "Celebrant's Miter",
+    "palette": 11,
+    "sprite": 97,
+    "level": 24,
+    "attributes_id": 25,
+    "type": 21,
+    "secondary": 20,
+    "price": 6000,
+    "shop": 10
+  },
+  {
+    "id": 165,
+    "name": "Black Cowl",
+    "palette": 15,
+    "sprite": 92,
+    "level": 27,
+    "attributes_id": 0,
+    "type": 21,
+    "secondary": 21,
+    "price": 7000,
+    "shop": 11
+  },
+  {
+    "id": 166,
+    "name": "Gold Hairpin",
+    "palette": 11,
+    "sprite": 98,
+    "level": 32,
+    "attributes_id": 26,
+    "type": 21,
+    "secondary": 22,
+    "price": 12000,
+    "shop": 12
+  },
+  {
+    "id": 167,
+    "name": "Lambent Hat",
+    "palette": 13,
+    "sprite": 99,
+    "level": 38,
+    "attributes_id": 27,
+    "type": 21,
+    "secondary": 23,
+    "price": 16000,
+    "shop": 14
+  },
+  {
+    "id": 168,
+    "name": "Thief's Cap",
+    "palette": 9,
+    "sprite": 95,
+    "level": 46,
+    "attributes_id": 28,
+    "type": 21,
+    "secondary": 24,
+    "price": 35000,
+    "shop": 15
+  },
+  {
+    "id": 169,
+    "name": "Cachusha",
+    "palette": 11,
+    "sprite": 100,
+    "level": 50,
+    "attributes_id": 69,
+    "type": 22,
+    "secondary": 25,
+    "price": 20000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 170,
+    "name": "Barette",
+    "palette": 12,
+    "sprite": 101,
+    "level": 51,
+    "attributes_id": 70,
+    "type": 22,
+    "secondary": 26,
+    "price": 20000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 171,
+    "name": "Ribbon",
+    "palette": 11,
+    "sprite": 102,
+    "level": 52,
+    "attributes_id": 71,
+    "type": 22,
+    "secondary": 27,
+    "price": 60000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 172,
+    "name": "Leather Armor",
+    "palette": 0,
+    "sprite": 106,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 28,
+    "price": 200,
+    "shop": 1
+  },
+  {
+    "id": 173,
+    "name": "Linen Cuirass",
+    "palette": 11,
+    "sprite": 107,
+    "level": 4,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 29,
+    "price": 600,
+    "shop": 2
+  },
+  {
+    "id": 174,
+    "name": "Bronze Armor",
+    "palette": 14,
+    "sprite": 103,
+    "level": 6,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 30,
+    "price": 800,
+    "shop": 3
+  },
+  {
+    "id": 175,
+    "name": "Chainmail",
+    "palette": 3,
+    "sprite": 108,
+    "level": 8,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 31,
+    "price": 1300,
+    "shop": 4
+  },
+  {
+    "id": 176,
+    "name": "Mythril Armor",
+    "palette": 9,
+    "sprite": 103,
+    "level": 11,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 32,
+    "price": 2000,
+    "shop": 5
+  },
+  {
+    "id": 177,
+    "name": "Plate Mail",
+    "palette": 0,
+    "sprite": 104,
+    "level": 14,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 33,
+    "price": 3000,
+    "shop": 6
+  },
+  {
+    "id": 178,
+    "name": "Golden Armor",
+    "palette": 2,
+    "sprite": 104,
+    "level": 17,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 34,
+    "price": 3600,
+    "shop": 7
+  },
+  {
+    "id": 179,
+    "name": "Diamond Armor",
+    "palette": 10,
+    "sprite": 105,
+    "level": 22,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 35,
+    "price": 6000,
+    "shop": 10
+  },
+  {
+    "id": 180,
+    "name": "Platinum Armor",
+    "palette": 8,
+    "sprite": 109,
+    "level": 26,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 36,
+    "price": 9000,
+    "shop": 12
+  },
+  {
+    "id": 181,
+    "name": "Carabiner Mail",
+    "palette": 8,
+    "sprite": 110,
+    "level": 30,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 37,
+    "price": 13000,
+    "shop": 13
+  },
+  {
+    "id": 182,
+    "name": "Crystal Mail",
+    "palette": 5,
+    "sprite": 105,
+    "level": 37,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 38,
+    "price": 19000,
+    "shop": 14
+  },
+  {
+    "id": 183,
+    "name": "Genji Armor",
+    "palette": 3,
+    "sprite": 111,
+    "level": 37,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 39,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 184,
+    "name": "Mirror Mail",
+    "palette": 3,
+    "sprite": 112,
+    "level": 39,
+    "attributes_id": 29,
+    "type": 23,
+    "secondary": 40,
+    "price": 18000,
+    "shop": 14,
+    "rare": true
+  },
+  {
+    "id": 185,
+    "name": "Maximillian",
+    "palette": 13,
+    "sprite": 113,
+    "level": 45,
+    "attributes_id": 0,
+    "type": 23,
+    "secondary": 41,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 186,
+    "name": "Clothing",
+    "palette": 6,
+    "sprite": 116,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 24,
+    "secondary": 42,
+    "price": 150,
+    "shop": 1
+  },
+  {
+    "id": 187,
+    "name": "Leather Clothing",
+    "palette": 3,
+    "sprite": 117,
+    "level": 3,
+    "attributes_id": 0,
+    "type": 24,
+    "secondary": 43,
+    "price": 300,
+    "shop": 2
+  },
+  {
+    "id": 188,
+    "name": "Leather Plate",
+    "palette": 2,
+    "sprite": 118,
+    "level": 5,
+    "attributes_id": 0,
+    "type": 24,
+    "secondary": 44,
+    "price": 500,
+    "shop": 3
+  },
+  {
+    "id": 189,
+    "name": "Ringmail",
+    "palette": 6,
+    "sprite": 119,
+    "level": 7,
+    "attributes_id": 0,
+    "type": 24,
+    "secondary": 45,
+    "price": 900,
+    "shop": 4
+  },
+  {
+    "id": 190,
+    "name": "Mythril Vest",
+    "palette": 4,
+    "sprite": 115,
+    "level": 10,
+    "attributes_id": 0,
+    "type": 24,
+    "secondary": 46,
+    "price": 1500,
+    "shop": 5
+  },
+  {
+    "id": 191,
+    "name": "Adamant Vest",
+    "palette": 11,
+    "sprite": 115,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 24,
+    "secondary": 47,
+    "price": 1600,
+    "shop": 6
+  },
+  {
+    "id": 192,
+    "name": "Wizard Clothing",
+    "palette": 3,
+    "sprite": 120,
+    "level": 14,
+    "attributes_id": 0,
+    "type": 24,
+    "secondary": 48,
+    "price": 1900,
+    "shop": 7
+  },
+  {
+    "id": 193,
+    "name": "Brigandine",
+    "palette": 1,
+    "sprite": 121,
+    "level": 17,
+    "attributes_id": 0,
+    "type": 24,
+    "secondary": 49,
+    "price": 2500,
+    "shop": 8
+  },
+  {
+    "id": 194,
+    "name": "Jujitsu Gi",
+    "palette": 0,
+    "sprite": 122,
+    "level": 21,
+    "attributes_id": 30,
+    "type": 24,
+    "secondary": 50,
+    "price": 4000,
+    "shop": 10
+  },
+  {
+    "id": 195,
+    "name": "Power Garb",
+    "palette": 3,
+    "sprite": 123,
+    "level": 25,
+    "attributes_id": 31,
+    "type": 24,
+    "secondary": 51,
+    "price": 7000,
+    "shop": 11
+  },
+  {
+    "id": 196,
+    "name": "Gaia Gear",
+    "palette": 11,
+    "sprite": 124,
+    "level": 29,
+    "attributes_id": 32,
+    "type": 24,
+    "secondary": 52,
+    "price": 10000,
+    "shop": 13
+  },
+  {
+    "id": 197,
+    "name": "Ninja Gear",
+    "palette": 3,
+    "sprite": 114,
+    "level": 35,
+    "attributes_id": 33,
+    "type": 24,
+    "secondary": 53,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 198,
+    "name": "Black Garb",
+    "palette": 11,
+    "sprite": 114,
+    "level": 37,
+    "attributes_id": 34,
+    "type": 24,
+    "secondary": 54,
+    "price": 12000,
+    "shop": 14
+  },
+  {
+    "id": 199,
+    "name": "Rubber Suit",
+    "palette": 3,
+    "sprite": 125,
+    "level": 50,
+    "attributes_id": 35,
+    "type": 24,
+    "secondary": 55,
+    "price": 48000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 200,
+    "name": "Hempen Robe",
+    "palette": 6,
+    "sprite": 126,
+    "level": 3,
+    "attributes_id": 0,
+    "type": 25,
+    "secondary": 56,
+    "price": 1200,
+    "shop": 3
+  },
+  {
+    "id": 201,
+    "name": "Silken Robe",
+    "palette": 1,
+    "sprite": 126,
+    "level": 5,
+    "attributes_id": 0,
+    "type": 25,
+    "secondary": 57,
+    "price": 2400,
+    "shop": 4
+  },
+  {
+    "id": 202,
+    "name": "Wizard's Robe",
+    "palette": 11,
+    "sprite": 127,
+    "level": 11,
+    "attributes_id": 36,
+    "type": 25,
+    "secondary": 58,
+    "price": 4000,
+    "shop": 7
+  },
+  {
+    "id": 203,
+    "name": "Chameleon Robe",
+    "palette": 11,
+    "sprite": 128,
+    "level": 16,
+    "attributes_id": 37,
+    "type": 25,
+    "secondary": 59,
+    "price": 5000,
+    "shop": 10,
+    "rare": true
+  },
+  {
+    "id": 204,
+    "name": "White Robe",
+    "palette": 12,
+    "sprite": 129,
+    "level": 26,
+    "attributes_id": 38,
+    "type": 25,
+    "secondary": 60,
+    "price": 9000,
+    "shop": 11
+  },
+  {
+    "id": 205,
+    "name": "Black Robe",
+    "palette": 12,
+    "sprite": 130,
+    "level": 31,
+    "attributes_id": 39,
+    "type": 25,
+    "secondary": 61,
+    "price": 13000,
+    "shop": 12
+  },
+  {
+    "id": 206,
+    "name": "Luminous Robe",
+    "palette": 13,
+    "sprite": 131,
+    "level": 38,
+    "attributes_id": 40,
+    "type": 25,
+    "secondary": 62,
+    "price": 30000,
+    "shop": 14
+  },
+  {
+    "id": 207,
+    "name": "Lordly Robe",
+    "palette": 13,
+    "sprite": 127,
+    "level": 45,
+    "attributes_id": 41,
+    "type": 25,
+    "secondary": 63,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 208,
+    "name": "Battle Boots",
+    "palette": 0,
+    "sprite": 132,
+    "level": 10,
+    "attributes_id": 42,
+    "type": 26,
+    "secondary": 0,
+    "price": 1000,
+    "shop": 2
+  },
+  {
+    "id": 209,
+    "name": "Spiked Boots",
+    "palette": 0,
+    "sprite": 133,
+    "level": 20,
+    "attributes_id": 43,
+    "type": 26,
+    "secondary": 1,
+    "price": 1200,
+    "shop": 5
+  },
+  {
+    "id": 210,
+    "name": "Germinas Boots",
+    "palette": 1,
+    "sprite": 134,
+    "level": 30,
+    "attributes_id": 44,
+    "type": 26,
+    "secondary": 2,
+    "price": 5000,
+    "shop": 10
+  },
+  {
+    "id": 211,
+    "name": "Rubber Boots",
+    "palette": 1,
+    "sprite": 135,
+    "level": 5,
+    "attributes_id": 45,
+    "type": 26,
+    "secondary": 3,
+    "price": 1500,
+    "shop": 7,
+    "rare": true
+  },
+  {
+    "id": 212,
+    "name": "Winged Boots",
+    "palette": 2,
+    "sprite": 136,
+    "level": 50,
+    "attributes_id": 46,
+    "type": 26,
+    "secondary": 4,
+    "price": 2500,
+    "shop": 9,
+    "rare": true
+  },
+  {
+    "id": 213,
+    "name": "Hermes Shoes",
+    "palette": 5,
+    "sprite": 137,
+    "level": 30,
+    "attributes_id": 47,
+    "type": 26,
+    "secondary": 5,
+    "price": 7000,
+    "shop": 12,
+    "rare": true
+  },
+  {
+    "id": 214,
+    "name": "Red Shoes",
+    "palette": 3,
+    "sprite": 138,
+    "level": 40,
+    "attributes_id": 48,
+    "type": 26,
+    "secondary": 6,
+    "price": 10000,
+    "shop": 14,
+    "rare": true
+  },
+  {
+    "id": 215,
+    "name": "Power Gauntlet",
+    "palette": 0,
+    "sprite": 139,
+    "level": 20,
+    "attributes_id": 49,
+    "type": 27,
+    "secondary": 7,
+    "price": 5000,
+    "shop": 6
+  },
+  {
+    "id": 216,
+    "name": "Genji Glove",
+    "palette": 3,
+    "sprite": 140,
+    "level": 50,
+    "attributes_id": 50,
+    "type": 27,
+    "secondary": 8,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 217,
+    "name": "Magepower Glove",
+    "palette": 3,
+    "sprite": 141,
+    "level": 35,
+    "attributes_id": 51,
+    "type": 27,
+    "secondary": 9,
+    "price": 20000,
+    "shop": 9
+  },
+  {
+    "id": 218,
+    "name": "Bracer",
+    "palette": 4,
+    "sprite": 142,
+    "level": 60,
+    "attributes_id": 52,
+    "type": 27,
+    "secondary": 10,
+    "price": 50000,
+    "shop": 12
+  },
+  {
+    "id": 219,
+    "name": "Reflect Ring",
+    "palette": 0,
+    "sprite": 143,
+    "level": 50,
+    "attributes_id": 53,
+    "type": 28,
+    "secondary": 11,
+    "price": 10000,
+    "shop": 9,
+    "rare": true
+  },
+  {
+    "id": 220,
+    "name": "Protect Ring",
+    "palette": 6,
+    "sprite": 143,
+    "level": 25,
+    "attributes_id": 54,
+    "type": 28,
+    "secondary": 12,
+    "price": 5000,
+    "shop": 7
+  },
+  {
+    "id": 221,
+    "name": "Magick Ring",
+    "palette": 0,
+    "sprite": 144,
+    "level": 25,
+    "attributes_id": 55,
+    "type": 28,
+    "secondary": 13,
+    "price": 10000,
+    "shop": 11
+  },
+  {
+    "id": 222,
+    "name": "Cursed Ring",
+    "palette": 4,
+    "sprite": 144,
+    "level": 5,
+    "attributes_id": 56,
+    "type": 28,
+    "secondary": 14,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 223,
+    "name": "Angel Ring",
+    "palette": 8,
+    "sprite": 145,
+    "level": 25,
+    "attributes_id": 57,
+    "type": 28,
+    "secondary": 15,
+    "price": 20000,
+    "shop": 13,
+    "rare": true
+  },
+  {
+    "id": 224,
+    "name": "Diamond Bracelet",
+    "palette": 4,
+    "sprite": 146,
+    "level": 26,
+    "attributes_id": 58,
+    "type": 29,
+    "secondary": 16,
+    "price": 5000,
+    "shop": 8
+  },
+  {
+    "id": 225,
+    "name": "Jade Armlet",
+    "palette": 11,
+    "sprite": 147,
+    "level": 25,
+    "attributes_id": 59,
+    "type": 29,
+    "secondary": 17,
+    "price": 10000,
+    "shop": 10
+  },
+  {
+    "id": 226,
+    "name": "Japa Mala",
+    "palette": 0,
+    "sprite": 148,
+    "level": 25,
+    "attributes_id": 60,
+    "type": 29,
+    "secondary": 18,
+    "price": 15000,
+    "shop": 11
+  },
+  {
+    "id": 227,
+    "name": "Nu Khai Armband",
+    "palette": 11,
+    "sprite": 149,
+    "level": 25,
+    "attributes_id": 61,
+    "type": 29,
+    "secondary": 19,
+    "price": 10000,
+    "shop": 9
+  },
+  {
+    "id": 228,
+    "name": "Guardian Bracelet",
+    "palette": 6,
+    "sprite": 150,
+    "level": 25,
+    "attributes_id": 62,
+    "type": 29,
+    "secondary": 20,
+    "price": 7000,
+    "shop": 7
+  },
+  {
+    "id": 229,
+    "name": "Shoulder Cape",
+    "palette": 9,
+    "sprite": 151,
+    "level": 10,
+    "attributes_id": 0,
+    "type": 30,
+    "secondary": 21,
+    "price": 300,
+    "shop": 3
+  },
+  {
+    "id": 230,
+    "name": "Leather Cloak",
+    "palette": 14,
+    "sprite": 152,
+    "level": 20,
+    "attributes_id": 0,
+    "type": 30,
+    "secondary": 22,
+    "price": 800,
+    "shop": 5
+  },
+  {
+    "id": 231,
+    "name": "Mage's Cloak",
+    "palette": 13,
+    "sprite": 153,
+    "level": 30,
+    "attributes_id": 63,
+    "type": 30,
+    "secondary": 23,
+    "price": 2000,
+    "shop": 7
+  },
+  {
+    "id": 232,
+    "name": "Elven Cloak",
+    "palette": 11,
+    "sprite": 154,
+    "level": 40,
+    "attributes_id": 0,
+    "type": 30,
+    "secondary": 24,
+    "price": 8000,
+    "shop": 10
+  },
+  {
+    "id": 233,
+    "name": "Vampire Cape",
+    "palette": 14,
+    "sprite": 155,
+    "level": 49,
+    "attributes_id": 0,
+    "type": 30,
+    "secondary": 25,
+    "price": 15000,
+    "shop": 12
+  },
+  {
+    "id": 234,
+    "name": "Featherweave Cape",
+    "palette": 13,
+    "sprite": 156,
+    "level": 50,
+    "attributes_id": 0,
+    "type": 30,
+    "secondary": 26,
+    "price": 20000,
+    "shop": 14
+  },
+  {
+    "id": 235,
+    "name": "Invisibility Cloak",
+    "palette": 14,
+    "sprite": 157,
+    "level": 5,
+    "attributes_id": 64,
+    "type": 30,
+    "secondary": 27,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 236,
+    "name": "Chantage",
+    "palette": 11,
+    "sprite": 158,
+    "level": 5,
+    "attributes_id": 65,
+    "type": 31,
+    "secondary": 28,
+    "price": 60000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 237,
+    "name": "Cherche",
+    "palette": 13,
+    "sprite": 159,
+    "level": 5,
+    "attributes_id": 66,
+    "type": 31,
+    "secondary": 29,
+    "price": 60000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 238,
+    "name": "Septième",
+    "palette": 2,
+    "sprite": 160,
+    "level": 5,
+    "attributes_id": 67,
+    "type": 31,
+    "secondary": 30,
+    "price": 60000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 239,
+    "name": "Sortilége",
+    "palette": 8,
+    "sprite": 161,
+    "level": 5,
+    "attributes_id": 68,
+    "type": 31,
+    "secondary": 31,
+    "price": 60000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 240,
+    "name": "Potion",
+    "palette": 13,
+    "sprite": 162,
+    "level": 1,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 0,
+    "price": 50,
+    "shop": 1,
+    "rare": true
+  },
+  {
+    "id": 241,
+    "name": "Hi-Potion",
+    "palette": 13,
+    "sprite": 176,
+    "level": 2,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 1,
+    "price": 200,
+    "shop": 3,
+    "rare": true
+  },
+  {
+    "id": 242,
+    "name": "X-Potion",
+    "palette": 13,
+    "sprite": 177,
+    "level": 3,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 2,
+    "price": 700,
+    "shop": 9,
+    "rare": true
+  },
+  {
+    "id": 243,
+    "name": "Ether",
+    "palette": 11,
+    "sprite": 165,
+    "level": 4,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 3,
+    "price": 200,
+    "shop": 7,
+    "rare": true
+  },
+  {
+    "id": 244,
+    "name": "Hi-Ether",
+    "palette": 11,
+    "sprite": 166,
+    "level": 5,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 4,
+    "price": 600,
+    "shop": 11,
+    "rare": true
+  },
+  {
+    "id": 245,
+    "name": "Elixir",
+    "palette": 11,
+    "sprite": 167,
+    "level": 14,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 13,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 246,
+    "name": "Antidote",
+    "palette": 12,
+    "sprite": 168,
+    "level": 6,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 5,
+    "price": 50,
+    "shop": 1,
+    "rare": true
+  },
+  {
+    "id": 247,
+    "name": "Eye Drops",
+    "palette": 14,
+    "sprite": 169,
+    "level": 7,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 6,
+    "price": 50,
+    "shop": 1,
+    "rare": true
+  },
+  {
+    "id": 248,
+    "name": "Echo Herbs",
+    "palette": 11,
+    "sprite": 170,
+    "level": 8,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 7,
+    "price": 50,
+    "shop": 2,
+    "rare": true
+  },
+  {
+    "id": 249,
+    "name": "Maiden's Kiss",
+    "palette": 9,
+    "sprite": 171,
+    "level": 9,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 8,
+    "price": 50,
+    "shop": 2,
+    "rare": true
+  },
+  {
+    "id": 250,
+    "name": "Gold Needle",
+    "palette": 13,
+    "sprite": 172,
+    "level": 10,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 9,
+    "price": 100,
+    "shop": 2,
+    "rare": true
+  },
+  {
+    "id": 251,
+    "name": "Holy Water",
+    "palette": 9,
+    "sprite": 173,
+    "level": 11,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 10,
+    "price": 2000,
+    "shop": 5,
+    "rare": true
+  },
+  {
+    "id": 252,
+    "name": "Remedy",
+    "palette": 11,
+    "sprite": 174,
+    "level": 12,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 11,
+    "price": 350,
+    "shop": 7,
+    "rare": true
+  },
+  {
+    "id": 253,
+    "name": "Phoenix Down",
+    "palette": 14,
+    "sprite": 175,
+    "level": 13,
+    "attributes_id": 0,
+    "type": 34,
+    "secondary": 12,
+    "price": 300,
+    "shop": 1,
+    "rare": true
+  },
   {
     "id": 254,
     "name": "(Random)",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0
   },
   {
     "id": 255,
     "name": "(Terminator)",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0
   },
-    {
-      "id": 256,
-      "name": "Chaosbringer"
-    },
-    {
-      "id": 257,
-      "name": "Deathbringer"
-    },
-    {
-      "id": 258,
-      "name": "Arondight"
-    },
-    {
-      "id": 259,
-      "name": "Balmung"
-    },
-    {
-      "id": 260,
-      "name": "Valhalla"
-    },
-    {
-      "id": 261,
-      "name": "Moonblade"
-    },
-    {
-      "id": 262,
-      "name": "Onion Sword"
-    },
-    {
-      "id": 263,
-      "name": "Ras Algethi"
-    },
-    {
-      "id": 264,
-      "name": "Fomalhaut"
-    },
-    {
-      "id": 265,
-      "name": "Francisca"
-    },
-    {
-      "id": 266,
-      "name": "Golden Axe"
-    },
-    {
-      "id": 267,
-      "name": "Orochi"
-    },
-    {
-      "id": 268,
-      "name": "Moonsilk Blade"
-    },
-    {
-      "id": 269,
-      "name": "Nirvana"
-    },
-    {
-      "id": 270,
-      "name": "Dreamwaker"
-    },
-    {
-      "id": 271,
-      "name": "Stardust Rod"
-    },
-    {
-      "id": 272,
-      "name": "Crown Scepter"
-    },
-    {
-      "id": 273,
-      "name": "Vesper"
-    },
-    {
-      "id": 274,
-      "name": "Sagittarius Bow"
-    },
-    {
-      "id": 275,
-      "name": "Durandal"
-    },
-    {
-      "id": 276,
-      "name": "Gae Bolg"
-    },
-    {
-      "id": 277,
-      "name": "Gungnir"
-    },
+  {
+    "id": 256,
+    "name": "Chaosbringer",
+    "palette": 12,
+    "sprite": 14,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 35,
+    "secondary": 0,
+    "price": 15000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 257,
+    "name": "Deathbringer",
+    "palette": 6,
+    "sprite": 14,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 35,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 258,
+    "name": "Arondight",
+    "palette": 5,
+    "sprite": 14,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 35,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 259,
+    "name": "Balmung",
+    "palette": 17,
+    "sprite": 16,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 35,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 260,
+    "name": "Valhalla",
+    "palette": 18,
+    "sprite": 25,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 35,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 261,
+    "name": "Moonblade",
+    "palette": 8,
+    "sprite": 15,
+    "level": 0,
+    "attributes_id": 80,
+    "type": 3,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 262,
+    "name": "Onion Sword",
+    "palette": 14,
+    "sprite": 15,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 3,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 263,
+    "name": "Ras Algethi",
+    "palette": 8,
+    "sprite": 44,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 10,
+    "secondary": 0,
+    "price": 28000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 264,
+    "name": "Fomalhaut",
+    "palette": 14,
+    "sprite": 44,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 10,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 265,
+    "name": "Francisca",
+    "palette": 12,
+    "sprite": 32,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 6,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 266,
+    "name": "Golden Axe",
+    "palette": 16,
+    "sprite": 32,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 6,
+    "secondary": 0,
+    "price": 50000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 267,
+    "name": "Orochi",
+    "palette": 17,
+    "sprite": 7,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 268,
+    "name": "Moonsilk Blade",
+    "palette": 18,
+    "sprite": 7,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 2,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 269,
+    "name": "Nirvana",
+    "palette": 16,
+    "sprite": 42,
+    "level": 0,
+    "attributes_id": 81,
+    "type": 8,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 270,
+    "name": "Dreamwaker",
+    "palette": 18,
+    "sprite": 42,
+    "level": 0,
+    "attributes_id": 82,
+    "type": 8,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 271,
+    "name": "Stardust Rod",
+    "palette": 2,
+    "sprite": 38,
+    "level": 0,
+    "attributes_id": 83,
+    "type": 7,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 272,
+    "name": "Crown Scepter",
+    "palette": 19,
+    "sprite": 38,
+    "level": 0,
+    "attributes_id": 84,
+    "type": 7,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 273,
+    "name": "Vesper",
+    "palette": 21,
+    "sprite": 43,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 9,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 274,
+    "name": "Sagittarius Bow",
+    "palette": 7,
+    "sprite": 52,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 12,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 275,
+    "name": "Durandal",
+    "palette": 2,
+    "sprite": 24,
+    "level": 0,
+    "attributes_id": 85,
+    "type": 4,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 276,
+    "name": "Gae Bolg",
+    "palette": 10,
+    "sprite": 58,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 277,
+    "name": "Gungnir",
+    "palette": 9,
+    "sprite": 56,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 15,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
   {
     "id": 278,
     "name": "アイテム278",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 279,
     "name": "アイテム279",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 280,
     "name": "アイテム280",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 281,
     "name": "アイテム281",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 282,
     "name": "アイテム282",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 283,
     "name": "アイテム283",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 284,
     "name": "アイテム284",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 285,
     "name": "アイテム285",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 286,
     "name": "アイテム286",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 287,
     "name": "アイテム287",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
-    {
-      "id": 288,
-      "name": "Onion Shield"
-    },
-    {
-      "id": 289,
-      "name": "Reverie Shield"
-    },
+  {
+    "id": 288,
+    "name": "Onion Shield",
+    "palette": 12,
+    "sprite": 72,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 19,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 289,
+    "name": "Reverie Shield",
+    "palette": 20,
+    "sprite": 72,
+    "level": 0,
+    "attributes_id": 86,
+    "type": 19,
+    "secondary": 0,
+    "price": 60000,
+    "shop": 20,
+    "rare": true
+  },
   {
     "id": 290,
     "name": "アイテム290",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 291,
     "name": "アイテム291",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
-    {
-      "id": 292,
-      "name": "Vanguard Helm"
-    },
-    {
-      "id": 293,
-      "name": "Onion Helm"
-    },
-    {
-      "id": 294,
-      "name": "Acacia Hat"
-    },
-    {
-      "id": 295,
-      "name": "Brass Coronet"
-    },
+  {
+    "id": 292,
+    "name": "Vanguard Helm",
+    "palette": 3,
+    "sprite": 85,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 293,
+    "name": "Onion Helm",
+    "palette": 15,
+    "sprite": 83,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 20,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 294,
+    "name": "Acacia Hat",
+    "palette": 18,
+    "sprite": 97,
+    "level": 0,
+    "attributes_id": 87,
+    "type": 21,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 295,
+    "name": "Brass Coronet",
+    "palette": 8,
+    "sprite": 101,
+    "level": 0,
+    "attributes_id": 88,
+    "type": 21,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
   {
     "id": 296,
     "name": "アイテム296",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 297,
     "name": "アイテム297",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 298,
     "name": "アイテム298",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 299,
     "name": "アイテム299",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
-    {
-      "id": 300,
-      "name": "Grand Armor"
-    },
-    {
-      "id": 301,
-      "name": "Onion Armor"
-    },
-    {
-      "id": 302,
-      "name": "Minerva Bustier"
-    },
-    {
-      "id": 303,
-      "name": "Mirage Vest"
-    },
-    {
-      "id": 304,
-      "name": "Brave Suit"
-    },
-    {
-      "id": 305,
-      "name": "Sage's Robe"
-    },
+  {
+    "id": 300,
+    "name": "Grand Armor",
+    "palette": 12,
+    "sprite": 112,
+    "level": 0,
+    "attributes_id": 89,
+    "type": 23,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 301,
+    "name": "Onion Armor",
+    "palette": 13,
+    "sprite": 105,
+    "level": 0,
+    "attributes_id": 90,
+    "type": 23,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 302,
+    "name": "Minerva Bustier",
+    "palette": 0,
+    "sprite": 163,
+    "level": 0,
+    "attributes_id": 91,
+    "type": 24,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 303,
+    "name": "Mirage Vest",
+    "palette": 0,
+    "sprite": 124,
+    "level": 0,
+    "attributes_id": 92,
+    "type": 24,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 304,
+    "name": "Brave Suit",
+    "palette": 4,
+    "sprite": 124,
+    "level": 0,
+    "attributes_id": 93,
+    "type": 24,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 305,
+    "name": "Sage's Robe",
+    "palette": 11,
+    "sprite": 131,
+    "level": 0,
+    "attributes_id": 94,
+    "type": 25,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
   {
     "id": 306,
     "name": "アイテム306",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 307,
     "name": "アイテム307",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
-    {
-      "id": 308,
-      "name": "Gaius Caligae"
-    },
-    {
-      "id": 309,
-      "name": "Brigand's Gloves"
-    },
-    {
-      "id": 310,
-      "name": "Onion Gloves"
-    },
-    {
-      "id": 311,
-      "name": "Empyreal Armband"
-    },
-    {
-      "id": 312,
-      "name": "Tynar Rouge"
-    },
-    {
-      "id": 313,
-      "name": "Sage's Ring"
-    },
+  {
+    "id": 308,
+    "name": "Gaius Caligae",
+    "palette": 2,
+    "sprite": 134,
+    "level": 0,
+    "attributes_id": 95,
+    "type": 26,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 309,
+    "name": "Brigand's Gloves",
+    "palette": 14,
+    "sprite": 142,
+    "level": 0,
+    "attributes_id": 96,
+    "type": 27,
+    "secondary": 0,
+    "price": 30000,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 310,
+    "name": "Onion Gloves",
+    "palette": 15,
+    "sprite": 142,
+    "level": 0,
+    "attributes_id": 97,
+    "type": 27,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 311,
+    "name": "Empyreal Armband",
+    "palette": 22,
+    "sprite": 146,
+    "level": 0,
+    "attributes_id": 98,
+    "type": 29,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 312,
+    "name": "Tynar Rouge",
+    "palette": 18,
+    "sprite": 158,
+    "level": 0,
+    "attributes_id": 99,
+    "type": 36,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
+  {
+    "id": 313,
+    "name": "Sage's Ring",
+    "palette": 18,
+    "sprite": 144,
+    "level": 0,
+    "attributes_id": 100,
+    "type": 28,
+    "secondary": 0,
+    "price": 10,
+    "shop": 20,
+    "rare": true
+  },
   {
     "id": 314,
     "name": "アイテム314",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   },
   {
     "id": 315,
     "name": "アイテム315",
-    "internal": true
+    "internal": true,
+    "palette": 0,
+    "sprite": 0,
+    "level": 0,
+    "attributes_id": 0,
+    "type": 0,
+    "secondary": 0,
+    "price": 0,
+    "shop": 0,
+    "rare": true
   }
 ]

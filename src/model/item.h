@@ -22,7 +22,7 @@ struct Item
     bool        internal;
 
     uint8_t     palette;
-    uint8_t     gfx;
+    uint8_t     sprite;
     uint8_t     level;
     uint8_t     flags;
     uint8_t     unk0;

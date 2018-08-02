@@ -9,7 +9,8 @@ TabBase::TabBase(const QString& name, QAbstractItemModel* model, QWidget* parent
     QHBoxLayout* tabLayout = new QHBoxLayout;
     QVBoxLayout* leftLayout = new QVBoxLayout;
     QLabel* selectedLabel = new QLabel;
-    
+   
+    selectedLabel->setMaximumHeight(50);
     _layout = new QGridLayout;
     leftLayout->addWidget(new QLabel(name));
     _listView = new QListView;
