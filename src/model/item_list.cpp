@@ -17,7 +17,7 @@ ItemList::ItemList()
 
 int ItemList::columnCount(const QModelIndex & parent) const
 {
-    return 5;
+    return 8;
 }
 
 int ItemList::rowCount(const QModelIndex & parent) const
@@ -37,11 +37,17 @@ QVariant ItemList::data(const QModelIndex & index, int role) const
         case 1:
             return item.name;
         case 2:
-            return item.palette;
-        case 3:
             return item.sprite;
+        case 3:
+            return item.palette;
         case 4:
+            return item.level;
+        case 5:
+            return item.rare;
+        case 6:
             return item.price;
+        case 7:
+            return item.shop;
         default:
             return QVariant();
         }
@@ -63,15 +69,27 @@ bool ItemList::setData(const QModelIndex & index, const QVariant & value, int ro
             emit dataChanged(index, index, roles);
             return true;
         case 2:
-            item.palette = value.toInt();
-            emit dataChanged(index, index, roles);
-            return true;
-        case 3:
             item.sprite = value.toInt();
             emit dataChanged(index, index, roles);
             return true;
+        case 3:
+            item.palette = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
         case 4:
+            item.level = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 5:
+            item.rare = value.toBool();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 6:
             item.price = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 7:
+            item.shop = value.toInt();
             emit dataChanged(index, index, roles);
             return true;
         default:

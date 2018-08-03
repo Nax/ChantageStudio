@@ -1,6 +1,7 @@
 #ifndef INCLUDED_UI_TAB_ITEMS_H
 #define INCLUDED_UI_TAB_ITEMS_H
 
+#include <QCheckBox>
 #include <QLineEdit>
 #include <QSpinBox>
 #include <ui/tab_base.h>
@@ -18,9 +19,12 @@ private slots:
 
 private:
     QLineEdit*      _itemEditName;
-    QSpinBox*       _itemEditPalette;
     QSpinBox*       _itemEditSprite;
+    QSpinBox*       _itemEditPalette;
+    QSpinBox*       _itemEditLevel;
+    QCheckBox*      _itemEditRare;
     QSpinBox*       _itemEditPrice;
+    QSpinBox*       _itemEditShop;
     Mod&            _mod;
 };
 

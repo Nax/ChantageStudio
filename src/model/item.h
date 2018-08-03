@@ -21,17 +21,14 @@ struct Item
     QString     name;
     bool        internal;
 
-    uint8_t     palette;
     uint8_t     sprite;
+    uint8_t     palette;
     uint8_t     level;
-    uint8_t     flags;
-    uint8_t     unk0;
+    bool        rare;
     uint8_t     type;
-    uint8_t     unk1;
     uint8_t     attrID;
     uint16_t    price;
     uint8_t     shop;
-    uint8_t     unk2;
 };
 
 #endif
