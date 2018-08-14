@@ -9,4 +9,5 @@ Item::Item(const QJsonObject& obj)
     level = obj["level"].toInt();
     sprite = obj["sprite"].toInt();
     price = obj["price"].toInt();
+    rare = obj["rare"].toBool();
 }
