@@ -105,10 +105,5 @@ bool ItemList::setData(const QModelIndex & index, const QVariant & value, int ro
 
 Qt::ItemFlags ItemList::flags(const QModelIndex & index) const
 {
-    Qt::ItemFlags flags = Qt::ItemIsSelectable | Qt::ItemIsEnabled;
-    const Item& item = _items[index.row()];
-
-    if (!item.internal)
-        flags |= Qt::ItemIsEditable;
-    return flags;
+    return Qt::ItemIsSelectable | Qt::ItemIsEnabled;
 }

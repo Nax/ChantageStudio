@@ -10,57 +10,64 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
     itemForm->setColumnMinimumWidth(2, 40);
 
     _itemEditName = new QLineEdit;
-    _itemEditName->setFixedWidth(100);
+    _itemEditName->setFixedWidth(200);
     itemForm->addWidget(new QLabel("Name"), 0, 0);
-    itemForm->addWidget(_itemEditName, 0, 1);
+    itemForm->addWidget(_itemEditName, 0, 1, 1, 3);
+
+    _itemEditType = new QComboBox;
+    _itemEditType->setFixedWidth(200);
+    _itemEditType->setModel(mod.itemTypeList);
+    _itemEditType->setModelColumn(1);
+    itemForm->addWidget(new QLabel("Type"), 1, 0);
+    itemForm->addWidget(_itemEditType, 1, 1, 1, 3);
 
     _itemEditSprite = new QSpinBox;
     _itemEditSprite->setDisplayIntegerBase(16);
     _itemEditSprite->setPrefix("0x");
     _itemEditSprite->setFixedWidth(60);
     _itemEditSprite->setRange(0, 255);
-    itemForm->addWidget(new QLabel("Sprite"), 1, 0);
-    itemForm->addWidget(_itemEditSprite, 1, 1);
+    itemForm->addWidget(new QLabel("Sprite"), 2, 0);
+    itemForm->addWidget(_itemEditSprite, 2, 1);
 
     _itemEditPalette = new QSpinBox;
     _itemEditPalette->setDisplayIntegerBase(16);
     _itemEditPalette->setPrefix("0x");
     _itemEditPalette->setFixedWidth(60);
     _itemEditPalette->setRange(0, 255);
-    itemForm->addWidget(new QLabel("Palette"), 1, 2);
-    itemForm->addWidget(_itemEditPalette, 1, 3);
+    itemForm->addWidget(new QLabel("Palette"), 2, 2);
+    itemForm->addWidget(_itemEditPalette, 2, 3);
 
     _itemEditLevel = new QSpinBox;
     _itemEditLevel->setFixedWidth(60);
     _itemEditLevel->setRange(0, 255);
-    itemForm->addWidget(new QLabel("Level"), 2, 0);
-    itemForm->addWidget(_itemEditLevel, 2, 1);
+    itemForm->addWidget(new QLabel("Level"), 3, 0);
+    itemForm->addWidget(_itemEditLevel, 3, 1);
 
     _itemEditRare = new QCheckBox;
-    itemForm->addWidget(new QLabel("Rare"), 2, 2);
-    itemForm->addWidget(_itemEditRare, 2, 3);
+    itemForm->addWidget(new QLabel("Rare"), 3, 2);
+    itemForm->addWidget(_itemEditRare, 3, 3);
 
     _itemEditPrice = new QSpinBox;
     _itemEditPrice->setFixedWidth(60);
     _itemEditPrice->setRange(0, 65535);
-    itemForm->addWidget(new QLabel("Price"), 3, 0);
-    itemForm->addWidget(_itemEditPrice, 3, 1);
+    itemForm->addWidget(new QLabel("Price"), 4, 0);
+    itemForm->addWidget(_itemEditPrice, 4, 1);
 
     _itemEditShop = new QSpinBox;
     _itemEditShop->setDisplayIntegerBase(16);
     _itemEditShop->setPrefix("0x");
     _itemEditShop->setFixedWidth(60);
     _itemEditShop->setRange(0, 255);
-    itemForm->addWidget(new QLabel("Shop"), 3, 2);
-    itemForm->addWidget(_itemEditShop, 3, 3);
+    itemForm->addWidget(new QLabel("Shop"), 4, 2);
+    itemForm->addWidget(_itemEditShop, 4, 3);
 
     _itemEditAttributesId = new QSpinBox;
     _itemEditAttributesId->setDisplayIntegerBase(16);
     _itemEditAttributesId->setPrefix("0x");
     _itemEditAttributesId->setFixedWidth(60);
     _itemEditAttributesId->setRange(0, 255);
-    itemForm->addWidget(new QLabel("Attributes ID"), 4, 0);
-    itemForm->addWidget(_itemEditAttributesId, 4, 1);
+    itemForm->addWidget(new QLabel("Attributes ID"), 5, 0);
+    itemForm->addWidget(_itemEditAttributesId, 5, 1);
 
     itemForm->setColumnStretch(itemForm->columnCount(), 1);
     itemForm->setRowStretch(itemForm->rowCount(), 1);
@@ -85,6 +92,7 @@ void TabItems::refreshUi(int index)
     bool disabled = item.internal;
 
     _itemEditName->setDisabled(disabled);
+    _itemEditType->setDisabled(disabled);
     _itemEditSprite->setDisabled(disabled);
     _itemEditPalette->setDisabled(disabled);
     _itemEditLevel->setDisabled(disabled);
@@ -92,4 +100,10 @@ void TabItems::refreshUi(int index)
     _itemEditPrice->setDisabled(disabled);
     _itemEditShop->setDisabled(disabled);
     _itemEditAttributesId->setDisabled(disabled);
+
+    QModelIndexList indexList = _itemEditType->model()->match(_itemEditType->model()->index(0, 0), Qt::DisplayRole, item.type, 1, Qt::MatchExactly);
+    if (!indexList.empty())
+    {
+        _itemEditType->setCurrentIndex(indexList.first().row());
+    }
 }
