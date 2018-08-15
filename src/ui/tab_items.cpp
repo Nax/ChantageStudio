@@ -54,6 +54,14 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
     itemForm->addWidget(new QLabel("Shop"), 3, 2);
     itemForm->addWidget(_itemEditShop, 3, 3);
 
+    _itemEditAttributesId = new QSpinBox;
+    _itemEditAttributesId->setDisplayIntegerBase(16);
+    _itemEditAttributesId->setPrefix("0x");
+    _itemEditAttributesId->setFixedWidth(60);
+    _itemEditAttributesId->setRange(0, 255);
+    itemForm->addWidget(new QLabel("Attributes ID"), 4, 0);
+    itemForm->addWidget(_itemEditAttributesId, 4, 1);
+
     itemForm->setColumnStretch(itemForm->columnCount(), 1);
     itemForm->setRowStretch(itemForm->rowCount(), 1);
 
@@ -66,6 +74,7 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
     _mapper->addMapping(_itemEditRare, 5);
     _mapper->addMapping(_itemEditPrice, 6);
     _mapper->addMapping(_itemEditShop, 7);
+    _mapper->addMapping(_itemEditAttributesId, 8);
     connect(_mapper, SIGNAL(currentIndexChanged(int)), this, SLOT(refreshUi(int)));
     _mapper->toFirst();
 }
@@ -82,4 +91,5 @@ void TabItems::refreshUi(int index)
     _itemEditRare->setDisabled(disabled);
     _itemEditPrice->setDisabled(disabled);
     _itemEditShop->setDisabled(disabled);
+    _itemEditAttributesId->setDisabled(disabled);
 }

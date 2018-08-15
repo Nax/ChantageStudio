@@ -25,6 +25,7 @@ private:
     QCheckBox*      _itemEditRare;
     QSpinBox*       _itemEditPrice;
     QSpinBox*       _itemEditShop;
+    QSpinBox*       _itemEditAttributesId;
     Mod&            _mod;
 };
 
