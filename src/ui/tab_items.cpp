@@ -9,6 +9,8 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
     itemForm->setColumnMinimumWidth(0, 50);
     itemForm->setColumnMinimumWidth(2, 40);
 
+    _itemTypeModel = new ItemTypeList;
+
     _itemEditName = new QLineEdit;
     _itemEditName->setFixedWidth(200);
     itemForm->addWidget(new QLabel("Name"), 0, 0);
@@ -16,10 +18,11 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
 
     _itemEditType = new QComboBox;
     _itemEditType->setFixedWidth(200);
-    _itemEditType->setModel(mod.itemTypeList);
+    _itemEditType->setModel(_itemTypeModel);
     _itemEditType->setModelColumn(1);
     itemForm->addWidget(new QLabel("Type"), 1, 0);
     itemForm->addWidget(_itemEditType, 1, 1, 1, 3);
+    connect(_itemEditType, SIGNAL(currentIndexChanged(int)), this, SLOT(itemTypeChanged(int)));
 
     _itemEditSprite = new QSpinBox;
     _itemEditSprite->setDisplayIntegerBase(16);
@@ -88,8 +91,10 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
 
 void TabItems::refreshUi(int index)
 {
-    const Item& item = _mod.itemList->get(index);
+    Item& item = _mod.itemList->get(index);
     bool disabled = item.internal;
+
+    _item = &item;
 
     _itemEditName->setDisabled(disabled);
     _itemEditType->setDisabled(disabled);
@@ -105,5 +110,12 @@ void TabItems::refreshUi(int index)
     if (!indexList.empty())
     {
         _itemEditType->setCurrentIndex(indexList.first().row());
+        _itemTypeModel->filterOn(indexList.first());
     }
+}
+
+void TabItems::itemTypeChanged(int index)
+{
+    const ItemType& type = _itemTypeModel->fromIndex(index);
+    _item->type = type.id;
 }

@@ -1,5 +1,4 @@
 #include <QList>
-#include <model/item_type.h>
 #include <model/item_type_list.h>
 
 static const QList<ItemType> kItemTypes = {
@@ -43,6 +42,7 @@ static const QList<ItemType> kItemTypes = {
 };
 
 ItemTypeList::ItemTypeList()
+: _filterEnabled(false)
 {
 
 }
@@ -82,5 +82,30 @@ QVariant ItemTypeList::data(const QModelIndex & index, int role) const
 
 Qt::ItemFlags ItemTypeList::flags(const QModelIndex & index) const
 {
+    const ItemType& type = kItemTypes[index.row()];
+
+    if (_filterEnabled && _filterCategory != type.category)
+        return 0;
     return Qt::ItemIsSelectable | Qt::ItemIsEnabled;
+}
+
+void ItemTypeList::filter(ItemCategory category)
+{
+    _filterEnabled = true;
+    _filterCategory = category;
+}
+
+void ItemTypeList::filterOn(const QModelIndex& index)
+{
+    filter(kItemTypes[index.row()].category);
+}
+
+void ItemTypeList::clearFilter()
+{
+    _filterEnabled = false;
+}
+
+const ItemType& ItemTypeList::fromIndex(int index) const
+{
+    return kItemTypes[index];
 }

@@ -6,6 +6,8 @@
 #include <QLineEdit>
 #include <QSpinBox>
 #include <ui/tab_base.h>
+#include <model/item.h>
+#include <model/item_type_list.h>
 
 struct Mod;
 class TabItems : public TabBase
@@ -17,8 +19,11 @@ public:
 
 private slots:
     void refreshUi(int index);
+    void itemTypeChanged(int index);
 
 private:
+    Item*           _item;
+    ItemTypeList*   _itemTypeModel;
     QLineEdit*      _itemEditName;
     QComboBox*      _itemEditType;
     QSpinBox*       _itemEditSprite;
