@@ -13,4 +13,11 @@ Item::Item(const QJsonObject& obj)
     rare = obj["rare"].toBool();
     shop = obj["shop"].toInt();
     attrID = obj["attributes_id"].toInt();
+    physicalBlock = obj["pBlock"].toInt();
+    magicalBlock = obj["mBlock"].toInt();
+    hp = obj["hp"].toInt();
+    mp = obj["mp"].toInt();
+    formula = obj["formula"].toInt();
+    z = obj["z"].toInt();
+    status = obj["status"].toInt();
 }

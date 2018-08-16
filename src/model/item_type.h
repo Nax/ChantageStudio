@@ -2,18 +2,7 @@
 #define INCLUDED_MODEL_ITEM_TYPE_H
 
 #include <cstdint>
-
-enum class ItemCategory
-{
-    None,
-    ChemistItem,
-    Weapon,
-    Shield,
-    Helm,
-    BodyArmor,
-    Legs,
-    Accessory
-};
+#include <model/item_category.h>
 
 class ItemType
 {

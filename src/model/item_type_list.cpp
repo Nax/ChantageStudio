@@ -26,12 +26,12 @@ static const QList<ItemType> kItemTypes = {
     {32, "Weapon: Projectile", ItemCategory::Weapon},
     {33, "Weapon: Bomb", ItemCategory::Weapon},
     {19, "Shield", ItemCategory::Shield},
-    {20, "Head: Helm", ItemCategory::Helm},
-    {21, "Head: Hat", ItemCategory::Helm},
-    {22, "Head: Hairpin", ItemCategory::Helm},
-    {23, "Body: Armor", ItemCategory::BodyArmor},
-    {24, "Body: Clothing", ItemCategory::BodyArmor},
-    {25, "Body: Robe", ItemCategory::BodyArmor},
+    {20, "Head: Helm", ItemCategory::Head},
+    {21, "Head: Hat", ItemCategory::Head},
+    {22, "Head: Hairpin", ItemCategory::Head},
+    {23, "Body: Armor", ItemCategory::Body},
+    {24, "Body: Clothing", ItemCategory::Body},
+    {25, "Body: Robe", ItemCategory::Body},
     {26, "Accessory: Boots", ItemCategory::Accessory},
     {27, "Accessory: Glove", ItemCategory::Accessory},
     {28, "Accessory: Ring", ItemCategory::Accessory},
@@ -108,4 +108,15 @@ void ItemTypeList::clearFilter()
 const ItemType& ItemTypeList::fromIndex(int index) const
 {
     return kItemTypes[index];
+}
+
+const ItemType& ItemTypeList::fromId(int id) const
+{
+    for (int i = 0; i < kItemTypes.size(); ++i)
+    {
+        const ItemType& type = kItemTypes[i];
+        if (type.id == id)
+            return type;
+    }
+    return kItemTypes[0];
 }

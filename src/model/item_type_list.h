@@ -22,6 +22,7 @@ public:
     void    clearFilter();
 
     const ItemType& fromIndex(int index) const;
+    const ItemType& fromId(int id) const;
 
 private:
     bool            _filterEnabled;

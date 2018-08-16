@@ -17,7 +17,7 @@ ItemList::ItemList()
 
 int ItemList::columnCount(const QModelIndex & parent) const
 {
-    return 9;
+    return 16;
 }
 
 int ItemList::rowCount(const QModelIndex & parent) const
@@ -50,6 +50,20 @@ QVariant ItemList::data(const QModelIndex & index, int role) const
             return item.shop;
         case 8:
             return item.attrID;
+        case 9:
+            return item.physicalBlock;
+        case 10:
+            return item.magicalBlock;
+        case 11:
+            return item.hp;
+        case 12:
+            return item.mp;
+        case 13:
+            return item.formula;
+        case 14:
+            return item.z;
+        case 15:
+            return item.status;
         default:
             return QVariant();
         }
@@ -96,6 +110,34 @@ bool ItemList::setData(const QModelIndex & index, const QVariant & value, int ro
             return true;
         case 8:
             item.attrID = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 9:
+            item.physicalBlock = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 10:
+            item.magicalBlock = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 11:
+            item.hp = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 12:
+            item.mp = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 13:
+            item.formula = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 14:
+            item.z = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 15:
+            item.status = value.toInt();
             emit dataChanged(index, index, roles);
             return true;
         default:

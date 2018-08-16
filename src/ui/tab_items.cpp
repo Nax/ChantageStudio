@@ -1,5 +1,6 @@
 #include <QLineEdit>
 #include <QLabel>
+#include <QGroupBox>
 #include <ui/tab_items.h>
 #include <model/mod.h>
 
@@ -72,6 +73,74 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
     itemForm->addWidget(new QLabel("Attributes ID"), 5, 0);
     itemForm->addWidget(_itemEditAttributesId, 5, 1);
 
+    QGroupBox* blockGroup = new QGroupBox("Block / Evade");
+    QGridLayout* blockLayout = new QGridLayout;
+
+    _itemEditPhysicalBlock = new QSpinBox;
+    _itemEditPhysicalBlock->setSuffix("%");
+    _itemEditPhysicalBlock->setFixedWidth(60);
+    _itemEditPhysicalBlock->setRange(0, 255);
+    blockLayout->addWidget(new QLabel("Physical Block / Evade"), 0, 0);
+    blockLayout->addWidget(_itemEditPhysicalBlock, 0, 1);
+
+    _itemEditMagicalBlock = new QSpinBox;
+    _itemEditMagicalBlock->setSuffix("%");
+    _itemEditMagicalBlock->setFixedWidth(60);
+    _itemEditMagicalBlock->setRange(0, 255);
+    blockLayout->addWidget(new QLabel("Magical Block / Evade"), 1, 0);
+    blockLayout->addWidget(_itemEditMagicalBlock, 1, 1);
+    blockGroup->setLayout(blockLayout);
+
+    QGroupBox* armorGroup = new QGroupBox("Armor");
+    QGridLayout* armorLayout = new QGridLayout;
+
+    _itemEditHp = new QSpinBox;
+    _itemEditHp->setFixedWidth(60);
+    _itemEditHp->setRange(0, 255);
+    armorLayout->addWidget(new QLabel("HP"), 0, 0);
+    armorLayout->addWidget(_itemEditHp, 0, 1);
+
+    _itemEditMp = new QSpinBox;
+    _itemEditMp->setFixedWidth(60);
+    _itemEditMp->setRange(0, 255);
+    armorLayout->addWidget(new QLabel("MP"), 1, 0);
+    armorLayout->addWidget(_itemEditMp, 1, 1);
+    armorGroup->setLayout(armorLayout);
+
+    QGroupBox* chemistGroup = new QGroupBox("Chemist");
+    QGridLayout* chemistLayout = new QGridLayout;
+
+    _itemEditFormula = new QSpinBox;
+    _itemEditFormula->setDisplayIntegerBase(16);
+    _itemEditFormula->setPrefix("0x");
+    _itemEditFormula->setFixedWidth(60);
+    _itemEditFormula->setRange(0, 255);
+    chemistLayout->addWidget(new QLabel("Formula"), 0, 0);
+    chemistLayout->addWidget(_itemEditFormula, 0, 1);
+
+    _itemEditZ = new QSpinBox;
+    _itemEditZ->setFixedWidth(60);
+    _itemEditZ->setRange(0, 255);
+    chemistLayout->addWidget(new QLabel("Z"), 1, 0);
+    chemistLayout->addWidget(_itemEditZ, 1, 1);
+
+    _itemEditStatus = new QSpinBox;
+    _itemEditStatus->setDisplayIntegerBase(16);
+    _itemEditStatus->setPrefix("0x");
+    _itemEditStatus->setFixedWidth(60);
+    _itemEditStatus->setRange(0, 255);
+    chemistLayout->addWidget(new QLabel("Status"), 2, 0);
+    chemistLayout->addWidget(_itemEditStatus, 2, 1);
+    chemistGroup->setLayout(chemistLayout);
+
+    _widgetStack = new QStackedWidget;
+    _widgetStack->addWidget(new QWidget);
+    _widgetStack->addWidget(blockGroup);
+    _widgetStack->addWidget(armorGroup);
+    _widgetStack->addWidget(chemistGroup);
+    itemForm->setRowMinimumHeight(6, 20);
+    itemForm->addWidget(_widgetStack, 7, 0, 1, 4);
+
     itemForm->setColumnStretch(itemForm->columnCount(), 1);
     itemForm->setRowStretch(itemForm->rowCount(), 1);
 
@@ -85,6 +154,13 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
     _mapper->addMapping(_itemEditPrice, 6);
     _mapper->addMapping(_itemEditShop, 7);
     _mapper->addMapping(_itemEditAttributesId, 8);
+    _mapper->addMapping(_itemEditPhysicalBlock, 9);
+    _mapper->addMapping(_itemEditMagicalBlock, 10);
+    _mapper->addMapping(_itemEditHp, 11);
+    _mapper->addMapping(_itemEditMp, 12);
+    _mapper->addMapping(_itemEditFormula, 13);
+    _mapper->addMapping(_itemEditZ, 14);
+    _mapper->addMapping(_itemEditStatus, 15);
     connect(_mapper, SIGNAL(currentIndexChanged(int)), this, SLOT(refreshUi(int)));
     _mapper->toFirst();
 }
@@ -92,6 +168,7 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
 void TabItems::refreshUi(int index)
 {
     Item& item = _mod.itemList->get(index);
+    const ItemType& itemType = _itemTypeModel->fromId(item.type);
     bool disabled = item.internal;
 
     _item = &item;
@@ -111,6 +188,23 @@ void TabItems::refreshUi(int index)
     {
         _itemEditType->setCurrentIndex(indexList.first().row());
         _itemTypeModel->filterOn(indexList.first());
+    }
+
+    switch (itemType.category)
+    {
+    case ItemCategory::Shield:
+    case ItemCategory::Accessory:
+        _widgetStack->setCurrentIndex(1);
+        break;
+    case ItemCategory::Head:
+    case ItemCategory::Body:
+        _widgetStack->setCurrentIndex(2);
+        break;
+    case ItemCategory::ChemistItem:
+        _widgetStack->setCurrentIndex(3);
+        break;
+    default:
+        _widgetStack->setCurrentIndex(0);
     }
 }
 
