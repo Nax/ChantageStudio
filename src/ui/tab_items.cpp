@@ -76,68 +76,115 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
     QGroupBox* blockGroup = new QGroupBox("Block / Evade");
     QGridLayout* blockLayout = new QGridLayout;
 
-    _itemEditPhysicalBlock = new QSpinBox;
-    _itemEditPhysicalBlock->setSuffix("%");
-    _itemEditPhysicalBlock->setFixedWidth(60);
-    _itemEditPhysicalBlock->setRange(0, 255);
+    _itemEditShieldPhysicalBlock = new QSpinBox;
+    _itemEditShieldPhysicalBlock->setSuffix("%");
+    _itemEditShieldPhysicalBlock->setFixedWidth(60);
+    _itemEditShieldPhysicalBlock->setRange(0, 255);
     blockLayout->addWidget(new QLabel("Physical Block / Evade"), 0, 0);
-    blockLayout->addWidget(_itemEditPhysicalBlock, 0, 1);
+    blockLayout->addWidget(_itemEditShieldPhysicalBlock, 0, 1);
 
-    _itemEditMagicalBlock = new QSpinBox;
-    _itemEditMagicalBlock->setSuffix("%");
-    _itemEditMagicalBlock->setFixedWidth(60);
-    _itemEditMagicalBlock->setRange(0, 255);
+    _itemEditShieldMagicalBlock = new QSpinBox;
+    _itemEditShieldMagicalBlock->setSuffix("%");
+    _itemEditShieldMagicalBlock->setFixedWidth(60);
+    _itemEditShieldMagicalBlock->setRange(0, 255);
     blockLayout->addWidget(new QLabel("Magical Block / Evade"), 1, 0);
-    blockLayout->addWidget(_itemEditMagicalBlock, 1, 1);
+    blockLayout->addWidget(_itemEditShieldMagicalBlock, 1, 1);
     blockGroup->setLayout(blockLayout);
 
     QGroupBox* armorGroup = new QGroupBox("Armor");
     QGridLayout* armorLayout = new QGridLayout;
 
-    _itemEditHp = new QSpinBox;
-    _itemEditHp->setFixedWidth(60);
-    _itemEditHp->setRange(0, 255);
+    _itemEditArmorHp = new QSpinBox;
+    _itemEditArmorHp->setFixedWidth(60);
+    _itemEditArmorHp->setRange(0, 255);
     armorLayout->addWidget(new QLabel("HP"), 0, 0);
-    armorLayout->addWidget(_itemEditHp, 0, 1);
+    armorLayout->addWidget(_itemEditArmorHp, 0, 1);
 
-    _itemEditMp = new QSpinBox;
-    _itemEditMp->setFixedWidth(60);
-    _itemEditMp->setRange(0, 255);
+    _itemEditArmorMp = new QSpinBox;
+    _itemEditArmorMp->setFixedWidth(60);
+    _itemEditArmorMp->setRange(0, 255);
     armorLayout->addWidget(new QLabel("MP"), 1, 0);
-    armorLayout->addWidget(_itemEditMp, 1, 1);
+    armorLayout->addWidget(_itemEditArmorMp, 1, 1);
     armorGroup->setLayout(armorLayout);
 
     QGroupBox* chemistGroup = new QGroupBox("Chemist");
     QGridLayout* chemistLayout = new QGridLayout;
 
-    _itemEditFormula = new QSpinBox;
-    _itemEditFormula->setDisplayIntegerBase(16);
-    _itemEditFormula->setPrefix("0x");
-    _itemEditFormula->setFixedWidth(60);
-    _itemEditFormula->setRange(0, 255);
+    _itemEditChemistFormula = new QSpinBox;
+    _itemEditChemistFormula->setDisplayIntegerBase(16);
+    _itemEditChemistFormula->setPrefix("0x");
+    _itemEditChemistFormula->setFixedWidth(60);
+    _itemEditChemistFormula->setRange(0, 255);
     chemistLayout->addWidget(new QLabel("Formula"), 0, 0);
-    chemistLayout->addWidget(_itemEditFormula, 0, 1);
+    chemistLayout->addWidget(_itemEditChemistFormula, 0, 1);
 
-    _itemEditZ = new QSpinBox;
-    _itemEditZ->setFixedWidth(60);
-    _itemEditZ->setRange(0, 255);
+    _itemEditChemistZ = new QSpinBox;
+    _itemEditChemistZ->setFixedWidth(60);
+    _itemEditChemistZ->setRange(0, 255);
     chemistLayout->addWidget(new QLabel("Z"), 1, 0);
-    chemistLayout->addWidget(_itemEditZ, 1, 1);
+    chemistLayout->addWidget(_itemEditChemistZ, 1, 1);
 
-    _itemEditStatus = new QSpinBox;
-    _itemEditStatus->setDisplayIntegerBase(16);
-    _itemEditStatus->setPrefix("0x");
-    _itemEditStatus->setFixedWidth(60);
-    _itemEditStatus->setRange(0, 255);
+    _itemEditChemistStatus = new QSpinBox;
+    _itemEditChemistStatus->setDisplayIntegerBase(16);
+    _itemEditChemistStatus->setPrefix("0x");
+    _itemEditChemistStatus->setFixedWidth(60);
+    _itemEditChemistStatus->setRange(0, 255);
     chemistLayout->addWidget(new QLabel("Status"), 2, 0);
-    chemistLayout->addWidget(_itemEditStatus, 2, 1);
+    chemistLayout->addWidget(_itemEditChemistStatus, 2, 1);
     chemistGroup->setLayout(chemistLayout);
+
+    QGroupBox* weaponGroup = new QGroupBox("Weapon");
+    QGridLayout* weaponLayout = new QGridLayout;
+
+    _itemEditWeaponRange = new QSpinBox;
+    _itemEditWeaponRange->setFixedWidth(60);
+    _itemEditWeaponRange->setRange(0, 255);
+    weaponLayout->addWidget(new QLabel("Range"), 0, 0);
+    weaponLayout->addWidget(_itemEditWeaponRange, 0, 1);
+
+    _itemEditWeaponFormula = new QSpinBox;
+    _itemEditWeaponFormula->setDisplayIntegerBase(16);
+    _itemEditWeaponFormula->setPrefix("0x");
+    _itemEditWeaponFormula->setFixedWidth(60);
+    _itemEditWeaponFormula->setRange(0, 255);
+    weaponLayout->addWidget(new QLabel("Formula"), 1, 0);
+    weaponLayout->addWidget(_itemEditWeaponFormula, 1, 1);
+
+    _itemEditWeaponPower = new QSpinBox;
+    _itemEditWeaponPower->setFixedWidth(60);
+    _itemEditWeaponPower->setRange(0, 255);
+    weaponLayout->addWidget(new QLabel("Power"), 2, 0);
+    weaponLayout->addWidget(_itemEditWeaponPower, 2, 1);
+
+    _itemEditWeaponEvade = new QSpinBox;
+    _itemEditWeaponEvade->setSuffix("%");
+    _itemEditWeaponEvade->setFixedWidth(60);
+    _itemEditWeaponEvade->setRange(0, 255);
+    weaponLayout->addWidget(new QLabel("Evade"), 3, 0);
+    weaponLayout->addWidget(_itemEditWeaponEvade, 3, 1);
+
+    _itemEditWeaponStatus = new QSpinBox;
+    _itemEditWeaponStatus->setDisplayIntegerBase(16);
+    _itemEditWeaponStatus->setPrefix("0x");
+    _itemEditWeaponStatus->setFixedWidth(60);
+    _itemEditWeaponStatus->setRange(0, 255);
+    weaponLayout->addWidget(new QLabel("Status"), 4, 0);
+    weaponLayout->addWidget(_itemEditWeaponStatus, 4, 1);
+
+    _itemEditWeaponFlags = new WeaponFlagsEditor;
+    weaponLayout->addWidget(_itemEditWeaponFlags, 0, 2, 6, 1, Qt::AlignTop);
+
+    _itemEditWeaponElements = new ElementsEditor("Elements");
+    weaponLayout->addWidget(_itemEditWeaponElements, 0, 3, 6, 1, Qt::AlignTop);
+
+    weaponGroup->setLayout(weaponLayout);
 
     _widgetStack = new QStackedWidget;
     _widgetStack->addWidget(new QWidget);
     _widgetStack->addWidget(blockGroup);
     _widgetStack->addWidget(armorGroup);
     _widgetStack->addWidget(chemistGroup);
+    _widgetStack->addWidget(weaponGroup);
     itemForm->setRowMinimumHeight(6, 20);
     itemForm->addWidget(_widgetStack, 7, 0, 1, 4);
 
@@ -154,13 +201,20 @@ TabItems::TabItems(Mod& mod, QWidget* parent) : TabBase("Items", mod.itemList, p
     _mapper->addMapping(_itemEditPrice, 6);
     _mapper->addMapping(_itemEditShop, 7);
     _mapper->addMapping(_itemEditAttributesId, 8);
-    _mapper->addMapping(_itemEditPhysicalBlock, 9);
-    _mapper->addMapping(_itemEditMagicalBlock, 10);
-    _mapper->addMapping(_itemEditHp, 11);
-    _mapper->addMapping(_itemEditMp, 12);
-    _mapper->addMapping(_itemEditFormula, 13);
-    _mapper->addMapping(_itemEditZ, 14);
-    _mapper->addMapping(_itemEditStatus, 15);
+    _mapper->addMapping(_itemEditShieldPhysicalBlock, 9);
+    _mapper->addMapping(_itemEditShieldMagicalBlock, 10);
+    _mapper->addMapping(_itemEditArmorHp, 11);
+    _mapper->addMapping(_itemEditArmorMp, 12);
+    _mapper->addMapping(_itemEditChemistFormula, 13);
+    _mapper->addMapping(_itemEditChemistZ, 14);
+    _mapper->addMapping(_itemEditChemistStatus, 15);
+    _mapper->addMapping(_itemEditWeaponRange, 16);
+    _mapper->addMapping(_itemEditWeaponFormula, 13);
+    _mapper->addMapping(_itemEditWeaponPower, 18);
+    _mapper->addMapping(_itemEditWeaponEvade, 9);
+    _mapper->addMapping(_itemEditWeaponStatus, 15);
+    _mapper->addMapping(_itemEditWeaponFlags, 17);
+    _mapper->addMapping(_itemEditWeaponElements, 19);
     connect(_mapper, SIGNAL(currentIndexChanged(int)), this, SLOT(refreshUi(int)));
     _mapper->toFirst();
 }
@@ -202,6 +256,9 @@ void TabItems::refreshUi(int index)
         break;
     case ItemCategory::ChemistItem:
         _widgetStack->setCurrentIndex(3);
+        break;
+    case ItemCategory::Weapon:
+        _widgetStack->setCurrentIndex(4);
         break;
     default:
         _widgetStack->setCurrentIndex(0);

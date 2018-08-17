@@ -22,7 +22,14 @@
     "type": 1,
     "secondary": 1,
     "price": 100,
-    "shop": 1
+    "shop": 1,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 3,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 2,
@@ -34,7 +41,14 @@
     "type": 1,
     "secondary": 2,
     "price": 500,
-    "shop": 2
+    "shop": 2,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 3,
@@ -46,7 +60,14 @@
     "type": 1,
     "secondary": 3,
     "price": 800,
-    "shop": 3
+    "shop": 3,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 9
   },
   {
     "id": 4,
@@ -58,7 +79,14 @@
     "type": 1,
     "secondary": 4,
     "price": 1500,
-    "shop": 4
+    "shop": 4,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 10
   },
   {
     "id": 5,
@@ -70,7 +98,14 @@
     "type": 1,
     "secondary": 5,
     "price": 1800,
-    "shop": 6
+    "shop": 6,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 6,
@@ -82,7 +117,14 @@
     "type": 1,
     "secondary": 6,
     "price": 3000,
-    "shop": 10
+    "shop": 10,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 6,
+    "pBlock": 40,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 7,
@@ -94,7 +136,14 @@
     "type": 1,
     "secondary": 7,
     "price": 4000,
-    "shop": 11
+    "shop": 11,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 7,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 8,
@@ -106,7 +155,14 @@
     "type": 1,
     "secondary": 8,
     "price": 5000,
-    "shop": 12
+    "shop": 12,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 7,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 11
   },
   {
     "id": 9,
@@ -118,7 +174,14 @@
     "type": 1,
     "secondary": 9,
     "price": 8000,
-    "shop": 14
+    "shop": 14,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 5,
+    "elements": 16,
+    "status": 0
   },
   {
     "id": 10,
@@ -131,7 +194,14 @@
     "secondary": 10,
     "price": 12000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 138,
+    "formula": 1,
+    "power": 12,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 12
   },
   {
     "id": 11,
@@ -143,7 +213,14 @@
     "type": 2,
     "secondary": 11,
     "price": 3000,
-    "shop": 9
+    "shop": 9,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 12,
@@ -155,7 +232,14 @@
     "type": 2,
     "secondary": 12,
     "price": 5000,
-    "shop": 10
+    "shop": 10,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 9,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 13,
@@ -167,7 +251,14 @@
     "type": 2,
     "secondary": 13,
     "price": 7000,
-    "shop": 11
+    "shop": 11,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 14,
@@ -179,7 +270,14 @@
     "type": 2,
     "secondary": 14,
     "price": 10000,
-    "shop": 12
+    "shop": 12,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 12,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 15,
@@ -191,7 +289,14 @@
     "type": 2,
     "secondary": 15,
     "price": 16000,
-    "shop": 13
+    "shop": 13,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 13,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 13
   },
   {
     "id": 16,
@@ -204,7 +309,14 @@
     "secondary": 16,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 14,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 17,
@@ -217,7 +329,14 @@
     "secondary": 17,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 15,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 18,
@@ -230,7 +349,14 @@
     "secondary": 18,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 15,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 19,
@@ -242,7 +368,14 @@
     "type": 3,
     "secondary": 19,
     "price": 200,
-    "shop": 1
+    "shop": 1,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 20,
@@ -254,7 +387,14 @@
     "type": 3,
     "secondary": 20,
     "price": 500,
-    "shop": 2
+    "shop": 2,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 21,
@@ -266,7 +406,14 @@
     "type": 3,
     "secondary": 21,
     "price": 900,
-    "shop": 3
+    "shop": 3,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 6,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 22,
@@ -278,7 +425,14 @@
     "type": 3,
     "secondary": 22,
     "price": 1600,
-    "shop": 4
+    "shop": 4,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 7,
+    "pBlock": 8,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 23,
@@ -291,7 +445,14 @@
     "secondary": 23,
     "price": 2500,
     "shop": 5,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 6,
+    "power": 8,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 24,
@@ -303,7 +464,14 @@
     "type": 3,
     "secondary": 24,
     "price": 3300,
-    "shop": 6
+    "shop": 6,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 5,
+    "elements": 64,
+    "status": 0
   },
   {
     "id": 25,
@@ -315,7 +483,14 @@
     "type": 3,
     "secondary": 25,
     "price": 5000,
-    "shop": 9
+    "shop": 9,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 9,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 14
   },
   {
     "id": 26,
@@ -327,7 +502,14 @@
     "type": 3,
     "secondary": 26,
     "price": 5000,
-    "shop": 10
+    "shop": 10,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 9,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 15
   },
   {
     "id": 27,
@@ -339,7 +521,14 @@
     "type": 3,
     "secondary": 27,
     "price": 11000,
-    "shop": 12
+    "shop": 12,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 12,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 28,
@@ -351,7 +540,14 @@
     "type": 3,
     "secondary": 28,
     "price": 8000,
-    "shop": 11
+    "shop": 11,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 29,
@@ -363,7 +559,14 @@
     "type": 3,
     "secondary": 29,
     "price": 14000,
-    "shop": 13
+    "shop": 13,
+    "range": 1,
+    "flags": 142,
+    "formula": 2,
+    "power": 13,
+    "pBlock": 10,
+    "elements": 32,
+    "status": 25
   },
   {
     "id": 30,
@@ -375,7 +578,14 @@
     "type": 3,
     "secondary": 30,
     "price": 20000,
-    "shop": 14
+    "shop": 14,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 14,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 31,
@@ -388,7 +598,14 @@
     "secondary": 31,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 1,
+    "pBlock": 50,
+    "elements": 0,
+    "status": 16
   },
   {
     "id": 32,
@@ -401,7 +618,14 @@
     "secondary": 32,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 33,
@@ -414,7 +638,14 @@
     "secondary": 33,
     "price": 40000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 16,
+    "pBlock": 60,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 34,
@@ -427,7 +658,14 @@
     "secondary": 34,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 18,
+    "pBlock": 30,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 35,
@@ -440,7 +678,14 @@
     "secondary": 35,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 21,
+    "pBlock": 35,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 36,
@@ -453,7 +698,14 @@
     "secondary": 36,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 24,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 37,
@@ -466,7 +718,14 @@
     "secondary": 37,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 40,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 17
   },
   {
     "id": 38,
@@ -478,7 +737,14 @@
     "type": 5,
     "secondary": 38,
     "price": 1600,
-    "shop": 7
+    "shop": 7,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 7,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 39,
@@ -490,7 +756,14 @@
     "type": 5,
     "secondary": 39,
     "price": 3000,
-    "shop": 7
+    "shop": 7,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 40,
@@ -502,7 +775,14 @@
     "type": 5,
     "secondary": 40,
     "price": 5000,
-    "shop": 8
+    "shop": 8,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 9,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 41,
@@ -514,7 +794,14 @@
     "type": 5,
     "secondary": 41,
     "price": 7000,
-    "shop": 9
+    "shop": 9,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 42,
@@ -526,7 +813,14 @@
     "type": 5,
     "secondary": 42,
     "price": 8000,
-    "shop": 10
+    "shop": 10,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 11,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 43,
@@ -538,7 +832,14 @@
     "type": 5,
     "secondary": 43,
     "price": 10000,
-    "shop": 12
+    "shop": 12,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 12,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 44,
@@ -550,7 +851,14 @@
     "type": 5,
     "secondary": 44,
     "price": 15000,
-    "shop": 13
+    "shop": 13,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 14,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 45,
@@ -562,7 +870,14 @@
     "type": 5,
     "secondary": 45,
     "price": 22000,
-    "shop": 14
+    "shop": 14,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 15,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 46,
@@ -575,7 +890,14 @@
     "secondary": 46,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 18,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 47,
@@ -588,7 +910,14 @@
     "secondary": 47,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 25,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 48,
@@ -600,7 +929,14 @@
     "type": 6,
     "secondary": 48,
     "price": 1500,
-    "shop": 4
+    "shop": 4,
+    "range": 1,
+    "flags": 135,
+    "formula": 1,
+    "power": 9,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 49,
@@ -612,7 +948,14 @@
     "type": 6,
     "secondary": 49,
     "price": 4000,
-    "shop": 7
+    "shop": 7,
+    "range": 1,
+    "flags": 135,
+    "formula": 1,
+    "power": 12,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 50,
@@ -624,7 +967,14 @@
     "type": 6,
     "secondary": 50,
     "price": 12000,
-    "shop": 10
+    "shop": 10,
+    "range": 1,
+    "flags": 135,
+    "formula": 1,
+    "power": 16,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 18
   },
   {
     "id": 51,
@@ -636,7 +986,14 @@
     "type": 7,
     "secondary": 51,
     "price": 200,
-    "shop": 1
+    "shop": 1,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 3,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 52,
@@ -648,7 +1005,14 @@
     "type": 7,
     "secondary": 52,
     "price": 400,
-    "shop": 3
+    "shop": 3,
+    "range": 1,
+    "flags": 140,
+    "formula": 2,
+    "power": 3,
+    "pBlock": 20,
+    "elements": 64,
+    "status": 20
   },
   {
     "id": 53,
@@ -660,7 +1024,14 @@
     "type": 7,
     "secondary": 53,
     "price": 400,
-    "shop": 3
+    "shop": 3,
+    "range": 1,
+    "flags": 140,
+    "formula": 2,
+    "power": 3,
+    "pBlock": 20,
+    "elements": 128,
+    "status": 16
   },
   {
     "id": 54,
@@ -672,7 +1043,14 @@
     "type": 7,
     "secondary": 54,
     "price": 400,
-    "shop": 3
+    "shop": 3,
+    "range": 1,
+    "flags": 140,
+    "formula": 2,
+    "power": 3,
+    "pBlock": 20,
+    "elements": 32,
+    "status": 24
   },
   {
     "id": 55,
@@ -684,7 +1062,14 @@
     "type": 7,
     "secondary": 55,
     "price": 500,
-    "shop": 6
+    "shop": 6,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 3,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 19
   },
   {
     "id": 56,
@@ -696,7 +1081,14 @@
     "type": 7,
     "secondary": 56,
     "price": 8000,
-    "shop": 11
+    "shop": 11,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 57,
@@ -709,7 +1101,14 @@
     "secondary": 57,
     "price": 12000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 58,
@@ -722,7 +1121,14 @@
     "secondary": 58,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 20
   },
   {
     "id": 59,
@@ -734,7 +1140,14 @@
     "type": 8,
     "secondary": 59,
     "price": 120,
-    "shop": 1
+    "shop": 1,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 3,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 60,
@@ -746,7 +1159,14 @@
     "type": 8,
     "secondary": 60,
     "price": 800,
-    "shop": 3
+    "shop": 3,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 3,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 28
   },
   {
     "id": 61,
@@ -759,7 +1179,14 @@
     "secondary": 61,
     "price": 4000,
     "shop": 4,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 140,
+    "formula": 7,
+    "power": 4,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 62,
@@ -771,7 +1198,14 @@
     "type": 8,
     "secondary": 62,
     "price": 2200,
-    "shop": 6
+    "shop": 6,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 63,
@@ -783,7 +1217,14 @@
     "type": 8,
     "secondary": 63,
     "price": 4000,
-    "shop": 8
+    "shop": 8,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 64,
@@ -795,7 +1236,14 @@
     "type": 8,
     "secondary": 64,
     "price": 7000,
-    "shop": 11
+    "shop": 11,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 6,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 65,
@@ -808,7 +1256,14 @@
     "secondary": 65,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 6,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 66,
@@ -821,7 +1276,14 @@
     "secondary": 66,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 7,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 67,
@@ -833,7 +1295,14 @@
     "type": 9,
     "secondary": 67,
     "price": 1200,
-    "shop": 8
+    "shop": 8,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 9,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 68,
@@ -845,7 +1314,14 @@
     "type": 9,
     "secondary": 68,
     "price": 4000,
-    "shop": 10
+    "shop": 10,
+    "range": 1,
+    "flags": 142,
+    "formula": 2,
+    "power": 11,
+    "pBlock": 0,
+    "elements": 128,
+    "status": 17
   },
   {
     "id": 69,
@@ -857,7 +1333,14 @@
     "type": 9,
     "secondary": 69,
     "price": 9000,
-    "shop": 12
+    "shop": 12,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 16,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 70,
@@ -870,7 +1353,14 @@
     "secondary": 70,
     "price": 40000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 23,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 71,
@@ -883,7 +1373,14 @@
     "secondary": 71,
     "price": 5000,
     "shop": 7,
-    "rare": true
+    "rare": true,
+    "range": 8,
+    "flags": 32,
+    "formula": 3,
+    "power": 6,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 72,
@@ -896,7 +1393,14 @@
     "secondary": 72,
     "price": 15000,
     "shop": 10,
-    "rare": true
+    "rare": true,
+    "range": 8,
+    "flags": 32,
+    "formula": 3,
+    "power": 8,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 73,
@@ -909,7 +1413,14 @@
     "secondary": 73,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 8,
+    "flags": 32,
+    "formula": 3,
+    "power": 16,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 74,
@@ -922,7 +1433,14 @@
     "secondary": 74,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 8,
+    "flags": 32,
+    "formula": 4,
+    "power": 20,
+    "pBlock": 5,
+    "elements": 32,
+    "status": 0
   },
   {
     "id": 75,
@@ -935,7 +1453,14 @@
     "secondary": 75,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 8,
+    "flags": 32,
+    "formula": 4,
+    "power": 21,
+    "pBlock": 5,
+    "elements": 128,
+    "status": 0
   },
   {
     "id": 76,
@@ -948,7 +1473,14 @@
     "secondary": 76,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 8,
+    "flags": 32,
+    "formula": 4,
+    "power": 22,
+    "pBlock": 5,
+    "elements": 64,
+    "status": 0
   },
   {
     "id": 77,
@@ -960,7 +1492,14 @@
     "type": 11,
     "secondary": 77,
     "price": 400,
-    "shop": 1
+    "shop": 1,
+    "range": 4,
+    "flags": 32,
+    "formula": 1,
+    "power": 3,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 78,
@@ -973,7 +1512,14 @@
     "secondary": 78,
     "price": 1500,
     "shop": 4,
-    "rare": true
+    "rare": true,
+    "range": 4,
+    "flags": 32,
+    "formula": 1,
+    "power": 3,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 21
   },
   {
     "id": 79,
@@ -985,7 +1531,14 @@
     "type": 11,
     "secondary": 79,
     "price": 2000,
-    "shop": 7
+    "shop": 7,
+    "range": 4,
+    "flags": 32,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 80,
@@ -997,7 +1550,14 @@
     "type": 11,
     "secondary": 80,
     "price": 4000,
-    "shop": 9
+    "shop": 9,
+    "range": 4,
+    "flags": 32,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 22
   },
   {
     "id": 81,
@@ -1009,7 +1569,14 @@
     "type": 11,
     "secondary": 81,
     "price": 8000,
-    "shop": 11
+    "shop": 11,
+    "range": 4,
+    "flags": 32,
+    "formula": 1,
+    "power": 6,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 82,
@@ -1022,7 +1589,14 @@
     "secondary": 82,
     "price": 20000,
     "shop": 14,
-    "rare": true
+    "rare": true,
+    "range": 4,
+    "flags": 32,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 83,
@@ -1034,7 +1608,14 @@
     "type": 12,
     "secondary": 83,
     "price": 800,
-    "shop": 3
+    "shop": 3,
+    "range": 5,
+    "flags": 21,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 84,
@@ -1046,7 +1627,14 @@
     "type": 12,
     "secondary": 84,
     "price": 1500,
-    "shop": 4
+    "shop": 4,
+    "range": 5,
+    "flags": 21,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 85,
@@ -1058,7 +1646,14 @@
     "type": 12,
     "secondary": 85,
     "price": 2000,
-    "shop": 5
+    "shop": 5,
+    "range": 5,
+    "flags": 21,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 0,
+    "elements": 32,
+    "status": 0
   },
   {
     "id": 86,
@@ -1070,7 +1665,14 @@
     "type": 12,
     "secondary": 86,
     "price": 3000,
-    "shop": 7
+    "shop": 7,
+    "range": 5,
+    "flags": 21,
+    "formula": 2,
+    "power": 6,
+    "pBlock": 0,
+    "elements": 64,
+    "status": 21
   },
   {
     "id": 87,
@@ -1082,7 +1684,14 @@
     "type": 12,
     "secondary": 87,
     "price": 8000,
-    "shop": 11
+    "shop": 11,
+    "range": 5,
+    "flags": 21,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 0,
+    "elements": 16,
+    "status": 0
   },
   {
     "id": 88,
@@ -1094,7 +1703,14 @@
     "type": 12,
     "secondary": 88,
     "price": 5000,
-    "shop": 9
+    "shop": 9,
+    "range": 5,
+    "flags": 21,
+    "formula": 1,
+    "power": 7,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 89,
@@ -1106,7 +1722,14 @@
     "type": 12,
     "secondary": 89,
     "price": 22000,
-    "shop": 14
+    "shop": 14,
+    "range": 5,
+    "flags": 21,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 90,
@@ -1119,7 +1742,14 @@
     "secondary": 90,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 5,
+    "flags": 21,
+    "formula": 1,
+    "power": 12,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 91,
@@ -1132,7 +1762,14 @@
     "secondary": 91,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 5,
+    "flags": 21,
+    "formula": 1,
+    "power": 16,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 92,
@@ -1144,7 +1781,14 @@
     "type": 13,
     "secondary": 92,
     "price": 5000,
-    "shop": 7
+    "shop": 7,
+    "range": 3,
+    "flags": 32,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 23
   },
   {
     "id": 93,
@@ -1156,7 +1800,14 @@
     "type": 13,
     "secondary": 93,
     "price": 10000,
-    "shop": 11
+    "shop": 11,
+    "range": 3,
+    "flags": 32,
+    "formula": 6,
+    "power": 13,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 94,
@@ -1169,7 +1820,14 @@
     "secondary": 94,
     "price": 30000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 3,
+    "flags": 32,
+    "formula": 1,
+    "power": 15,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 24
   },
   {
     "id": 95,
@@ -1181,7 +1839,14 @@
     "type": 14,
     "secondary": 95,
     "price": 3000,
-    "shop": 7
+    "shop": 7,
+    "range": 3,
+    "flags": 34,
+    "formula": 1,
+    "power": 7,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 96,
@@ -1193,7 +1858,14 @@
     "type": 14,
     "secondary": 96,
     "price": 6000,
-    "shop": 10
+    "shop": 10,
+    "range": 3,
+    "flags": 34,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 97,
@@ -1205,7 +1877,14 @@
     "type": 14,
     "secondary": 97,
     "price": 10000,
-    "shop": 11
+    "shop": 11,
+    "range": 3,
+    "flags": 34,
+    "formula": 1,
+    "power": 9,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 98,
@@ -1218,7 +1897,14 @@
     "secondary": 98,
     "price": 30000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 3,
+    "flags": 34,
+    "formula": 1,
+    "power": 11,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 99,
@@ -1230,7 +1916,14 @@
     "type": 15,
     "secondary": 99,
     "price": 1000,
-    "shop": 5
+    "shop": 5,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 100,
@@ -1242,7 +1935,14 @@
     "type": 15,
     "secondary": 100,
     "price": 2000,
-    "shop": 7
+    "shop": 7,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 9,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 101,
@@ -1254,7 +1954,14 @@
     "type": 15,
     "secondary": 101,
     "price": 4500,
-    "shop": 9
+    "shop": 9,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 102,
@@ -1266,7 +1973,14 @@
     "type": 15,
     "secondary": 102,
     "price": 7000,
-    "shop": 11
+    "shop": 11,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 11,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 103,
@@ -1278,7 +1992,14 @@
     "type": 15,
     "secondary": 103,
     "price": 10000,
-    "shop": 14
+    "shop": 14,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 12,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 104,
@@ -1291,7 +2012,14 @@
     "secondary": 104,
     "price": 36000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 2,
+    "flags": 70,
+    "formula": 2,
+    "power": 14,
+    "pBlock": 10,
+    "elements": 2,
+    "status": 15
   },
   {
     "id": 105,
@@ -1304,7 +2032,14 @@
     "secondary": 105,
     "price": 44000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 17,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 106,
@@ -1317,7 +2052,14 @@
     "secondary": 106,
     "price": 1000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 30,
+    "pBlock": 10,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 107,
@@ -1329,7 +2071,14 @@
     "type": 16,
     "secondary": 107,
     "price": 1000,
-    "shop": 6
+    "shop": 6,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 6,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 108,
@@ -1341,7 +2090,14 @@
     "type": 16,
     "secondary": 108,
     "price": 1400,
-    "shop": 7
+    "shop": 7,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 7,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 109,
@@ -1353,7 +2109,14 @@
     "type": 16,
     "secondary": 109,
     "price": 2400,
-    "shop": 9
+    "shop": 9,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 110,
@@ -1365,7 +2128,14 @@
     "type": 16,
     "secondary": 110,
     "price": 4000,
-    "shop": 10
+    "shop": 10,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 9,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 111,
@@ -1377,7 +2147,14 @@
     "type": 16,
     "secondary": 111,
     "price": 7500,
-    "shop": 11
+    "shop": 11,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 25
   },
   {
     "id": 112,
@@ -1390,7 +2167,14 @@
     "secondary": 112,
     "price": 10000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 11,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 113,
@@ -1402,7 +2186,14 @@
     "type": 16,
     "secondary": 113,
     "price": 20000,
-    "shop": 14
+    "shop": 14,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 12,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 26
   },
   {
     "id": 114,
@@ -1415,7 +2206,14 @@
     "secondary": 114,
     "price": 37000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 16,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 115,
@@ -1428,7 +2226,14 @@
     "secondary": 115,
     "price": 53000,
     "shop": 9,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 128,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 116,
@@ -1441,7 +2246,14 @@
     "secondary": 116,
     "price": 60000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 128,
+    "formula": 1,
+    "power": 20,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 117,
@@ -1454,7 +2266,14 @@
     "secondary": 117,
     "price": 52000,
     "shop": 11,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 128,
+    "formula": 1,
+    "power": 12,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 118,
@@ -1467,7 +2286,14 @@
     "secondary": 118,
     "price": 58000,
     "shop": 14,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 128,
+    "formula": 1,
+    "power": 14,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 119,
@@ -1479,7 +2305,14 @@
     "type": 18,
     "secondary": 119,
     "price": 7000,
-    "shop": 10
+    "shop": 10,
+    "range": 2,
+    "flags": 64,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 50,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 120,
@@ -1491,7 +2324,14 @@
     "type": 18,
     "secondary": 120,
     "price": 15000,
-    "shop": 12
+    "shop": 12,
+    "range": 2,
+    "flags": 64,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 50,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 121,
@@ -1504,7 +2344,14 @@
     "secondary": 121,
     "price": 40000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 2,
+    "flags": 64,
+    "formula": 1,
+    "power": 15,
+    "pBlock": 50,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 122,
@@ -1516,7 +2363,14 @@
     "type": 32,
     "secondary": 122,
     "price": 50,
-    "shop": 5
+    "shop": 5,
+    "range": 0,
+    "flags": 34,
+    "formula": 1,
+    "power": 4,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 123,
@@ -1528,7 +2382,14 @@
     "type": 32,
     "secondary": 123,
     "price": 300,
-    "shop": 10
+    "shop": 10,
+    "range": 0,
+    "flags": 34,
+    "formula": 1,
+    "power": 7,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 124,
@@ -1540,7 +2401,14 @@
     "type": 32,
     "secondary": 124,
     "price": 1000,
-    "shop": 13
+    "shop": 13,
+    "range": 0,
+    "flags": 34,
+    "formula": 1,
+    "power": 10,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 125,
@@ -1552,7 +2420,14 @@
     "type": 33,
     "secondary": 125,
     "price": 250,
-    "shop": 7
+    "shop": 7,
+    "range": 0,
+    "flags": 34,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 0,
+    "elements": 128,
+    "status": 0
   },
   {
     "id": 126,
@@ -1564,7 +2439,14 @@
     "type": 33,
     "secondary": 126,
     "price": 250,
-    "shop": 7
+    "shop": 7,
+    "range": 0,
+    "flags": 34,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 0,
+    "elements": 4,
+    "status": 0
   },
   {
     "id": 127,
@@ -1576,7 +2458,14 @@
     "type": 33,
     "secondary": 127,
     "price": 250,
-    "shop": 7
+    "shop": 7,
+    "range": 0,
+    "flags": 34,
+    "formula": 1,
+    "power": 8,
+    "pBlock": 0,
+    "elements": 64,
+    "status": 0
   },
   {
     "id": 128,
@@ -3436,7 +4325,14 @@
     "secondary": 0,
     "price": 15000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 133,
+    "formula": 1,
+    "power": 16,
+    "pBlock": 0,
+    "elements": 1,
+    "status": 9
   },
   {
     "id": 257,
@@ -3449,7 +4345,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 133,
+    "formula": 1,
+    "power": 20,
+    "pBlock": 0,
+    "elements": 1,
+    "status": 11
   },
   {
     "id": 258,
@@ -3462,7 +4365,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 133,
+    "formula": 1,
+    "power": 24,
+    "pBlock": 0,
+    "elements": 1,
+    "status": 18
   },
   {
     "id": 259,
@@ -3475,7 +4385,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 133,
+    "formula": 1,
+    "power": 32,
+    "pBlock": 0,
+    "elements": 1,
+    "status": 44
   },
   {
     "id": 260,
@@ -3488,7 +4405,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 133,
+    "formula": 1,
+    "power": 40,
+    "pBlock": 0,
+    "elements": 1,
+    "status": 41
   },
   {
     "id": 261,
@@ -3501,7 +4425,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 20,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 262,
@@ -3514,7 +4445,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 130,
+    "formula": 1,
+    "power": 50,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 263,
@@ -3527,7 +4465,14 @@
     "secondary": 0,
     "price": 28000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 8,
+    "flags": 32,
+    "formula": 3,
+    "power": 12,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 264,
@@ -3540,7 +4485,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 8,
+    "flags": 32,
+    "formula": 3,
+    "power": 18,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 265,
@@ -3553,7 +4505,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 135,
+    "formula": 1,
+    "power": 24,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 266,
@@ -3566,7 +4525,14 @@
     "secondary": 0,
     "price": 50000,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 135,
+    "formula": 1,
+    "power": 30,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 267,
@@ -3579,7 +4545,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 6,
+    "power": 20,
+    "pBlock": 5,
+    "elements": 1,
+    "status": 0
   },
   {
     "id": 268,
@@ -3592,7 +4565,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 26,
+    "pBlock": 5,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 269,
@@ -3605,7 +4585,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 15,
+    "elements": 2,
+    "status": 0
   },
   {
     "id": 270,
@@ -3618,7 +4605,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 271,
@@ -3631,7 +4625,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 3,
+    "flags": 140,
+    "formula": 2,
+    "power": 5,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 42
   },
   {
     "id": 272,
@@ -3644,7 +4645,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 140,
+    "formula": 1,
+    "power": 5,
+    "pBlock": 20,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 273,
@@ -3657,7 +4665,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 36,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 274,
@@ -3670,7 +4685,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 5,
+    "flags": 21,
+    "formula": 1,
+    "power": 24,
+    "pBlock": 0,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 275,
@@ -3683,7 +4705,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 1,
+    "flags": 142,
+    "formula": 1,
+    "power": 26,
+    "pBlock": 40,
+    "elements": 2,
+    "status": 0
   },
   {
     "id": 276,
@@ -3696,7 +4725,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 24,
+    "pBlock": 15,
+    "elements": 0,
+    "status": 0
   },
   {
     "id": 277,
@@ -3709,7 +4745,14 @@
     "secondary": 0,
     "price": 10,
     "shop": 20,
-    "rare": true
+    "rare": true,
+    "range": 2,
+    "flags": 70,
+    "formula": 1,
+    "power": 29,
+    "pBlock": 15,
+    "elements": 64,
+    "status": 0
   },
   {
     "id": 278,

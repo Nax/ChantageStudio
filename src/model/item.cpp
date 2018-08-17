@@ -20,4 +20,8 @@ Item::Item(const QJsonObject& obj)
     formula = obj["formula"].toInt();
     z = obj["z"].toInt();
     status = obj["status"].toInt();
+    range = obj["range"].toInt();
+    flags = obj["flags"].toInt();
+    power = obj["power"].toInt();
+    elements = obj["elements"].toInt();
 }

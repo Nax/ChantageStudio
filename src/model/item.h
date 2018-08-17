@@ -30,6 +30,10 @@ struct Item
     uint8_t     formula;
     uint8_t     z;
     uint8_t     status;
+    uint8_t     range;
+    uint8_t     flags;
+    uint8_t     power;
+    uint8_t     elements;
 };
 
 #endif
