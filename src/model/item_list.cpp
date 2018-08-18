@@ -17,7 +17,7 @@ ItemList::ItemList()
 
 int ItemList::columnCount(const QModelIndex & parent) const
 {
-    return 20;
+    return 33;
 }
 
 int ItemList::rowCount(const QModelIndex & parent) const
@@ -49,7 +49,7 @@ QVariant ItemList::data(const QModelIndex & index, int role) const
         case 7:
             return item.shop;
         case 8:
-            return item.attrID;
+            return item.description;
         case 9:
             return item.physicalBlock;
         case 10:
@@ -72,6 +72,32 @@ QVariant ItemList::data(const QModelIndex & index, int role) const
             return item.power;
         case 19:
             return item.elements;
+        case 20:
+            return item.pa;
+        case 21:
+            return item.ma;
+        case 22:
+            return item.speed;
+        case 23:
+            return item.move;
+        case 24:
+            return item.jump;
+        case 25:
+            return item.elementsAbsorb;
+        case 26:
+            return item.elementsCancel;
+        case 27:
+            return item.elementsHalf;
+        case 28:
+            return item.elementsWeak;
+        case 29:
+            return item.elementsStrengthen;
+        case 30:
+            return item.statusPermanent;
+        case 31:
+            return item.statusImmunity;
+        case 32:
+            return item.statusStart;
         default:
             return QVariant();
         }
@@ -117,7 +143,7 @@ bool ItemList::setData(const QModelIndex & index, const QVariant & value, int ro
             emit dataChanged(index, index, roles);
             return true;
         case 8:
-            item.attrID = value.toInt();
+            item.description = value.toString();
             emit dataChanged(index, index, roles);
             return true;
         case 9:
@@ -162,6 +188,58 @@ bool ItemList::setData(const QModelIndex & index, const QVariant & value, int ro
             return true;
         case 19:
             item.elements = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 20:
+            item.pa = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 21:
+            item.ma = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 22:
+            item.speed = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 23:
+            item.move = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 24:
+            item.jump = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 25:
+            item.elementsAbsorb = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 26:
+            item.elementsCancel = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 27:
+            item.elementsHalf = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 28:
+            item.elementsWeak = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 29:
+            item.elementsStrengthen = value.toInt();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 30:
+            item.statusPermanent = value.toBitArray();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 31:
+            item.statusImmunity = value.toBitArray();
+            emit dataChanged(index, index, roles);
+            return true;
+        case 32:
+            item.statusStart = value.toBitArray();
             emit dataChanged(index, index, roles);
             return true;
         default:

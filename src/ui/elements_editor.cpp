@@ -31,6 +31,7 @@ ElementsEditor::ElementsEditor(const QString& title, QWidget* parent) : QWidget(
     QGridLayout* grid = new QGridLayout;
     grid->setVerticalSpacing(2);
     grid->setHorizontalSpacing(2);
+    grid->setSizeConstraint(QLayout::SetFixedSize);
     grid->addWidget(new QLabel(title), 0, 0, 1, 2);
     for (int i = 0; i < 8; ++i)
     {
