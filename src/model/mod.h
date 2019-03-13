@@ -8,7 +8,7 @@ struct Mod
     Mod();
     ~Mod();
 
-    ItemList*   itemList;
+    ItemList*       itemList;
 };
 
 #endif
